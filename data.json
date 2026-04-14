@@ -1,584 +1,237 @@
-﻿{
+{
     "comandos":  [
-                     {
-                         "id":  "educacion",
-                         "nombre":  "Programas Educativos",
-                         "subcomandos":  [
-                                             {
-                                                 "nombre":  "📖 Aulas Virtuales y Cursos",
-                                                 "icono":  "fa-chalkboard-user",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "Aula Virtual PRO",
-                                                                     "url":  "https://aula-virtual-pro.vercel.app/",
-                                                                     "descripcion":  "Entorno de aprendizaje avanzado",
-                                                                     "tags":  [
-                                                                                  "LMS",
-                                                                                  "Cursos"
-                                                                              ],
-                                                                     "icono":  "fa-laptop-code",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Aula Virtual UNEXCA",
-                                                                     "url":  "https://aula-virtual-unexca.vercel.app/",
-                                                                     "descripcion":  "Plataforma educativa institucional",
-                                                                     "tags":  [
-                                                                                  "UNEXCA"
-                                                                              ],
-                                                                     "icono":  "fa-university",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Introducción a la Programación",
-                                                                     "url":  "https://intro-programacion-lyart.vercel.app/",
-                                                                     "descripcion":  "Curso básico de programación",
-                                                                     "tags":  [
-                                                                                  "Programación"
-                                                                              ],
-                                                                     "icono":  "fa-code",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Programación (Teal)",
-                                                                     "url":  "https://programacion-teal.vercel.app/",
-                                                                     "descripcion":  "Recursos de programación",
-                                                                     "tags":  [
-                                                                                  "Código"
-                                                                              ],
-                                                                     "icono":  "fa-code",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Programación (Byxa)",
-                                                                     "url":  "https://programacion-byxa.vercel.app/",
-                                                                     "descripcion":  "Ejercicios y ejemplos",
-                                                                     "tags":  [
-                                                                                  "Práctica"
-                                                                              ],
-                                                                     "icono":  "fa-code",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Trayecto Arquitectura Computador",
-                                                                     "url":  "https://trayecto-arquitectura-del-computado.vercel.app/",
-                                                                     "descripcion":  "Unidad curricular",
-                                                                     "tags":  [
-                                                                                  "Arquitectura"
-                                                                              ],
-                                                                     "icono":  "fa-microchip",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Arquitectura del Computador",
-                                                                     "url":  "https://arquitectura-del-computador.vercel.app/",
-                                                                     "descripcion":  "Módulo completo",
-                                                                     "tags":  [
-                                                                                  "Hardware"
-                                                                              ],
-                                                                     "icono":  "fa-microchip",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Trabajo BD 2026",
-                                                                     "url":  "https://trabajo-bd-2026.vercel.app/",
-                                                                     "descripcion":  "Base de datos social",
-                                                                     "tags":  [
-                                                                                  "Datos"
-                                                                              ],
-                                                                     "icono":  "fa-database",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "UNEXCA Arquitectura Computador",
-                                                                     "url":  "https://unexca-arquitectura-computador.vercel.app/",
-                                                                     "descripcion":  "Material didáctico",
-                                                                     "tags":  [
-                                                                                  "UNEXCA"
-                                                                              ],
-                                                                     "icono":  "fa-computer",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             },
-                                             {
-                                                 "nombre":  "📋 Plataformas de Registro Académico",
-                                                 "icono":  "fa-table-list",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "Proyectos Universitarios",
-                                                                     "url":  "https://proyec-univ.vercel.app/",
-                                                                     "descripcion":  "Registro de proyectos académicos",
-                                                                     "tags":  [
-                                                                                  "Universitario"
-                                                                              ],
-                                                                     "icono":  "fa-graduation-cap",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Registro Proyectos UNEXCA",
-                                                                     "url":  "https://unexca-p.vercel.app/",
-                                                                     "descripcion":  "Seguimiento de proyectos",
-                                                                     "tags":  [
-                                                                                  "UNEXCA"
-                                                                              ],
-                                                                     "icono":  "fa-clipboard-list",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "ODDI - Registro",
-                                                                     "url":  "https://oddi.vercel.app/",
-                                                                     "descripcion":  "Sistema para ODDI",
-                                                                     "tags":  [
-                                                                                  "ODDI"
-                                                                              ],
-                                                                     "icono":  "fa-database",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             },
-                                             {
-                                                 "nombre":  "🧠 Contenido Educativo Especial",
-                                                 "icono":  "fa-brain",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "Nexus · Aprendizaje Adaptativo",
-                                                                     "url":  "https://nexus-sgo.vercel.app/",
-                                                                     "descripcion":  "Plataforma conceptual con IA y redes de conocimiento",
-                                                                     "tags":  [
-                                                                                  "IA",
-                                                                                  "Redes neuronales"
-                                                                              ],
-                                                                     "icono":  "fa-brain",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Biohacking Estructural",
-                                                                     "url":  "https://biohacking-estructural.vercel.app/",
-                                                                     "descripcion":  "Innovación educativa en ciencias",
-                                                                     "tags":  [
-                                                                                  "Ciencia"
-                                                                              ],
-                                                                     "icono":  "fa-dna",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Tao Te Ching - Educativo",
-                                                                     "url":  "https://tao-te-ching-five.vercel.app/",
-                                                                     "descripcion":  "Filosofía aplicada",
-                                                                     "tags":  [
-                                                                                  "Humanidades"
-                                                                              ],
-                                                                     "icono":  "fa-feather",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "AADNN",
-                                                                     "url":  "https://aaddnn.vercel.app/",
-                                                                     "descripcion":  "Redes neuronales educativas",
-                                                                     "tags":  [
-                                                                                  "IA"
-                                                                              ],
-                                                                     "icono":  "fa-network-wired",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "SGO-PIU",
-                                                                     "url":  "https://sgo-piu.vercel.app/",
-                                                                     "descripcion":  "Plataforma de investigación universitaria",
-                                                                     "tags":  [
-                                                                                  "Investigación"
-                                                                              ],
-                                                                     "icono":  "fa-flask",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             }
-                                         ]
-                     },
-                     {
-                         "id":  "tecnosocial",
-                         "nombre":  "Tecnología Social",
-                         "subcomandos":  [
-                                             {
-                                                 "nombre":  "⚠️ Gestión de Riesgo - SGO/PRO",
-                                                 "icono":  "fa-shield-haltered",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "SGO-PRO Sala Nacional de Riesgo",
-                                                                     "url":  "https://sgo-riezgo.vercel.app/",
-                                                                     "descripcion":  "IoT, IA predictiva y gemelos digitales",
-                                                                     "tags":  [
-                                                                                  "Riesgo",
-                                                                                  "IoT"
-                                                                              ],
-                                                                     "icono":  "fa-shield-alt",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "SGO-PRO (general)",
-                                                                     "url":  "https://sgopro.vercel.app/",
-                                                                     "descripcion":  "Sistema de gestión operativa",
-                                                                     "tags":  [
-                                                                                  "Gestión"
-                                                                              ],
-                                                                     "icono":  "fa-chart-line",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "TSJ 3 Enero",
-                                                                     "url":  "https://tsj-3enero.vercel.app/",
-                                                                     "descripcion":  "Caso de estudio legal y social",
-                                                                     "tags":  [
-                                                                                  "Justicia"
-                                                                              ],
-                                                                     "icono":  "fa-gavel",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "SGO Strategic Editor",
-                                                                     "url":  "https://sgo-strategic-editor.vercel.app/",
-                                                                     "descripcion":  "Editor de planes estratégicos",
-                                                                     "tags":  [
-                                                                                  "Planificación"
-                                                                              ],
-                                                                     "icono":  "fa-edit",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             },
-                                             {
-                                                 "nombre":  "🏘️ Proyectos Comunitarios",
-                                                 "icono":  "fa-hand-holding-heart",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "SGO/PC - Proyectos Comunitarios",
-                                                                     "url":  "https://sgo-pc.vercel.app/",
-                                                                     "descripcion":  "Sistema para consejos comunales",
-                                                                     "tags":  [
-                                                                                  "Comunal"
-                                                                              ],
-                                                                     "icono":  "fa-people-arrows",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "SGO/PC 23 de Febrero",
-                                                                     "url":  "https://sgo-pc-23-de-febrero.vercel.app/",
-                                                                     "descripcion":  "Implementación piloto",
-                                                                     "tags":  [
-                                                                                  "Piloto"
-                                                                              ],
-                                                                     "icono":  "fa-calendar",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             },
-                                             {
-                                                 "nombre":  "📊 ODDI, Comunas y Registros Sociales",
-                                                 "icono":  "fa-chart-simple",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "Combomedia - Multi‑formulario",
-                                                                     "url":  "https://combomedia.vercel.app/",
-                                                                     "descripcion":  "Registro ODDI, proyectos, comuna",
-                                                                     "tags":  [
-                                                                                  "Formularios"
-                                                                              ],
-                                                                     "icono":  "fa-wpforms",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Combo Media (alternativo)",
-                                                                     "url":  "https://combo-media.vercel.app/",
-                                                                     "descripcion":  "Dashboard social",
-                                                                     "tags":  [
-                                                                                  "Dashboard"
-                                                                              ],
-                                                                     "icono":  "fa-chart-pie",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Flow Comercio Pro",
-                                                                     "url":  "https://flow-comercio-pro.vercel.app/",
-                                                                     "descripcion":  "Gestión de comercios populares",
-                                                                     "tags":  [
-                                                                                  "Economía social"
-                                                                              ],
-                                                                     "icono":  "fa-store",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             },
-                                             {
-                                                 "nombre":  "🌟 Otros Proyectos Sociales",
-                                                 "icono":  "fa-star",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "Plan Libertador",
-                                                                     "url":  "https://plan-libertador.vercel.app/",
-                                                                     "descripcion":  "Visión nacional",
-                                                                     "tags":  [
-                                                                                  "Gobierno"
-                                                                              ],
-                                                                     "icono":  "fa-flag",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Plan Simón Bolívar",
-                                                                     "url":  "https://plan-simon-bolivar.vercel.app/",
-                                                                     "descripcion":  "Proyecto histórico",
-                                                                     "tags":  [
-                                                                                  "Patria"
-                                                                              ],
-                                                                     "icono":  "fa-landmark",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Currículum Digital (CV)",
-                                                                     "url":  "https://curr-culum-nine.vercel.app/",
-                                                                     "descripcion":  "Mi CV interactivo",
-                                                                     "tags":  [
-                                                                                  "Personal"
-                                                                              ],
-                                                                     "icono":  "fa-id-card",
-                                                                     "microdescripcion":  "Pendiente de añadir una breve descripción."
-                                                                 }
-                                                             ]
-                                             }
-                                         ]
-                     }
+
                  ],
     "pdfs":  [
                  {
-                    "enlace":  "https://mediaseva.com/books/Ensenanzas/1Q%20-%20Spanish.pdf",
-                     "categoría":  "espiritual",
+                     "enlace":  "https://mediaseva.com/books/Ensenanzas/1Q%20-%20Spanish.pdf",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Sadhu Ram Ji",
                      "ruta":  "",
-                     "descripción":  "El libro incluye discursos formales, \"charlas de corazón a corazón\" y secciones de instrucción detalladas sobre el Sendero de los Maestros (Sant Mat), el papel del Maestro Perfecto (Satgurú), la meditación (Abhias) y la vida ética (Sadachar).\nTemas Clave: Se enfatiza que el cuerpo humano es el Verdadero Templo de Dios. La enseñanza central gira en torno a la práctica del Surat Shabd Yoga, la necesidad de desarrollar una humildad extrema ácomparando la mente dócil con la flexibilidad de un colchón y la importancia del silencio devocional para evitar la crítica y los errores de la mente. La parte final ofrece un mensaje técnico y devocional sobre el Simran (repetición de las palabras cargadas) como el único alimento real del alma,
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El libro incluye discursos formales, «charlas de corazón a corazón» y secciones de instrucción detalladas sobre el Sendero de los Maestros (Sant Mat), el papel del Maestro Perfecto (Satgurú), la meditación (Abhyas) y la vida ética (Sadachar).",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Uno y un Cuarto",
-                     "microdescripción":  "Esta obra es una recopilación exhaustiva de las enseñanzas y mensajes de Sant Sadhu Ram Ji, organizada en cuatro partes fundamentales que sirven como guía práctica para el buscador espiritual"
+                     "microdescripcion":  "Esta obra es una recopilación exhaustiva de las enseñanzas y mensajes de Sant Sadhu Ram Ji, organizada en cuatro partes fundamentales que sirven como guía práctica para el buscador espiritual."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Anurag-Sagar-de-Kabir.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Ajaib Singh Ji",
                      "ruta":  "",
-                     "descripción":  "Anurag Sagar: El Ocóano de Amor (Kabir Sahib)\nEl Anurag Sagar es una obra esotérica fundamental en la tradición de Sant Mat, presentada en forma de un diálogo épico entre Kabir Sahib y su discípulo Dharam Das. El poema es una narración cosmogúnica que explica el efecto del Tiempo sobre la Eternidad. Describe cómo el Sat Purush (la Verdadera Persona) creó las almas a partir de Su propia esencia y cómo surgió el universo a través del primer Verbo o Shabda. La obra profundiza en la figura de Kal (el Poder Negativo o Tiempo), uno de los hijos de la Eternidad que, por su megalomanía e impaciencia, creó el universo inferior (los tres mundos: físico, astral y causal) para atrapar a las almas y exigirles adoración como si él fuera Dios.\El libro detalla la historia de la creación y la caída de las almas (yivas), explicando que estas están compuestas de cinco elementos y tres gunas, pero atrapadas por catorce yamas o mensajeros de la muerte. Kabir revela que él ha descendido al mundo en las cuatro edades (yugas) bajo diferentes nombres (Sat Sukrit, Maninder, Karunamai y Kabir) para despertar a las almas y mostrarles la vía de escape de la trampa de Kal. Uno de los conceptos más complejos que aborda es la Rueda de los 84 Lakhs (8.4 millones de formas de vida), explicando que el cuerpo humano es el peldaño supremo y la única oportunidad para obtener el conocimiento y regresar a Sat Lok (el plano de la Verdad).\Además, el texto ofrece instrucciones técnicas sobre la meditación en el Shabda Naam y cómo elevarse por sobre la mente para concluir con el karma. Kabir advierte sobre los \"mensajeros de Kal\" que se disfrazan de maestros para engañar a los buscadores y la importancia de reconocer las señales de un Maestro Verdadero, quien es el único que puede manifestar el Verbo que concede la liberación. El resumen final de la obra insta al buscador a sacrificar los atributos de la mente y acogerse a los pies del Satgurú, quien es el \"Esposo Incorruptible\" de todas las almas\",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "Temas Clave: Se enfatiza que el cuerpo humano es el Verdadero Templo de Dios. La enseñanza central gira en torno a la práctica del Surat Shabd Yoga, la necesidad de desarrollar una humildad extrema comparando la mente dócil con la flexibilidad de un colchón y la importancia del silencio devocional para evitar la crítica y los errores de la mente. La parte final ofrece un mensaje técnico y devocional sobre el Simran (repetición de las palabras cargadas) como el único alimento real del alma.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Anurag Sagar de Kabir",
-                     "microdescripción":  "Epopeya mística que narra la creación del universo, la caída de Kal (Poder Negativo) y el descenso de Kabir para liberar a las almas atrapadas en la ilusión."
+                     "microdescripcion":  "Epopeya mística que narra la creación del universo, la caída de Kal (Poder Negativo) y el descenso de Kabir para liberar a las almas atrapadas en la ilusión."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Arroyos%20en%20el%20Desierto.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Ajaib Singh Ji",
                      "ruta":  "",
-                     "descripción":  "Arroyos en el Desierto (Sant Ajaib Singh Ji)\esta obra constituye una de las recopilaciones más íntimas y profundas de los discursos y conversaciones de Sant Ajaib Singh Ji Maharaj, entregados entre febrero de 1976 y mayo de 1980. El título del libro hace referencia a una profecía del Libro de Isaías, simbolizando cómo el corazón humano, antes un desierto seco por los deseos mundanos, puede florecer y llenarse de arroyos de espiritualidad bajo la guía de un Maestro Perfecto.\el contenido se divide estructuralmente en discursos formales y conversaciones informales. Los discursos abordan la esencia de la lucha interna contra la mente y Maya, explicando que el ser humano no podrá conocerse a sí mismo hasta que se eleve por encima de estas influencias ilusorias. Sant Ji enfatiza que el alma es un rayo de Dios y de la misma esencia que la Superalma, por lo que el mensaje central del Maestro Kirpal Singh, \"Conócete a ti mismo\", es el eje de la práctica. Un aspecto clave de la obra es la descripción de la austeridad de los cinco fuegos y otros rituales externos, los cuales Sant Ji realizó en su juventud solo para concluir enfáticamente que no brindan beneficio espiritual real, reafirmando que solo el Naam (el Verbo) otorga la liberación.\en las conversaciones, el autor muestra un sentido del humor penetrante y una percepción interna de los problemas humanos, guiando a los discípulos de Sant Kirpal Singh tras la partida física de este último. Sant Ji relata experiencias personales sobre cómo el Maestro Kirpal se manifestaba dentro de él incluso antes de conocerlo físicamente, y cómo el Poder Maestro es el dueño de toda la creación, permeando el agua, la tierra y el aire. La obra también detalla la importancia del Simran (repetición) y cómo la atención debe estar siempre en la forma del Maestro para recibir su protección constante como una sombra que nunca abandona al discípulo. Finalmente, el libro funciona como una guía ética, tratando temas como la castidad, la dieta vegetariana y la necesidad de no herir a nadie, pues el cuerpo humano es el verdadero templo donde reside Dios\n",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "Esta obra constituye una de las recopilaciones más íntimas y profundas de los discursos y conversaciones de Sant Ajaib Singh Ji Maharaj, entregados entre febrero de 1976 y mayo de 1980. El título del libro hace referencia a una profecía del Libro de Isaías, simbolizando cómo el corazón humano, antes un desierto seco por los deseos mundanos, puede florecer y llenarse de arroyos de espiritualidad bajo la guía de un Maestro Perfecto.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Arroyos en el Desierto",
-                     "microdescripción":  "Recopilación de discursos de Sant Ajaib Singh sobre la lucha con la mente, la esencia de la meditación y la importancia de practicar las enseñanzas de los Santos."
+                     "microdescripcion":  "Recopilación de discursos de Sant Ajaib Singh sobre la lucha con la mente, la esencia de la meditación y la importancia de practicar las enseñanzas de los Santos."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Mensaje.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Ajaib Singh Ji",
                      "ruta":  "",
-                     "descripción":  " El texto establece que esta ciencia se basa en la unidad esencial de todas las religiones y en la necesidad de la unión del alma con el Creador a través del Surat Shabd Yoga durante el término de la vida presente\n.\El contenido de esta fuente se organiza en cuatro secciones principales:\n\"Hombre! Conócete a Ti Mismo\" (Sant Kirpal Singh Ji): Explica que el conocimiento del Ser Superior es la \"Ciencia de la Verdad Realizada\" o Para Vidya\Propone el autoanélisis como el primer paso para buscar la fuente eterna de paz y alegría dentro de nosotros mismos, permitiendo experimentar a Dios ahora mismo mediante el retiro de la corriente sensorial del cuerpo\n.\n\"El mensaje de Amor\" (Sant Ajaib Singh Ji): Es un mensaje enviado en 1976 que insta a los buscadores a la meditación y al amor mutuo\ Enfatiza que la meditación es el alimento del alma y que, si se practica correctamente, el amor se manifiesta automáticamente, permitiendo ver al alma en todos como la misma esencia de la Superalma\"La Ciencia de los Maestros\" (Baba Sawan Singh Ji): A través de una carta a una iniciada, explica que la espiritualidad debe ser una experiencia práctica y personal, similar a los experimentos en un laboratorio químico\ Define a la Corriente de Sonido como la onda de la Gran Fuente que actúa como el lazo de conexión entre el individuo y el Creador\n.\n\"Instrucciones para los Buscadores de la Verdad\" (Sant Kirpal Singh Ji): Detalla los requisitos éticos para la iniciación, destacando las cinco virtudes cardinales (no violencia, veracidad, castidad, amor y servicio desinteresado) y la necesidad de una dieta estrictamente vegetariana que excluya carne, pescado, aves, huevos y alcohol\n.\nEn resumen, la obra presenta a los Maestros como guías competentes que otorgan una experiencia espiritual de primera mano desde la primera sesión, permitiendo al alma elevarse por encima de la conciencia corporal para contactar las manifestaciones divinas de Luz y Sonido",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "\"El Mensaje de Amor\", es una obra introductoria fundamental a la ciencia de Sant Mat (el Sendero de los Maestros) que compila enseñanzas clave de tres grandes figuras del linaje: Baba Sawan Singh Ji, Sant Kirpal Singh Ji y Sant Ajaib Singh Ji.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "El Mensaje de Amor",
-                     "microdescripción":  "\"El Mensaje de Amor\", es una obra introductoria fundamental a la ciencia de Sant Mat (el Sendero de los Maestros) que compila enseñanzas clave de tres grandes figuras del linaje: Baba Sawan Singh Ji, Sant Kirpal Singh Ji y Sant Ajaib Singh Ji"
+                     "microdescripcion":  "\"El Mensaje de Amor\", es una obra introductoria fundamental a la ciencia de Sant Mat"
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Palacio.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Ajaib Singh Ji",
                      "ruta":  "",
-                     "descripción":  "En el Palacio del Amor (Sant Ajaib Singh Ji)\nSant Ajaib Singh (Sant Ji) utiliza este texto para desarrollar la dialéctica entre el Poder Positivo (Dios de misericordia que reside en el \"Palacio del Amor\") y el Poder Negativo (Kal o Dharam Rai, el Señor del Juicio responsable de la Ley del Karma). El libro presenta el enfrentamiento irrevocable entre el amor divino y el miedo, afirmando que el peor pecado es tener miedo, ya que este nos ancla a los planos inferiores. A través de alegorías como la del \"rey manco\" Usraj, se ilustra la paciencia infinita de Dios y cómo él transforma cada obstáculo en un medio para la maduración espiritual del discípulo.\Sant Ji enfatiza que el cuerpo humano es el Verdadero Templo donde debe buscarse al Señor, criticando los dramas y rituales externos que solo alimentan a la mente y no al alma. Un tema recurrente es la necesidad del Maestro Perfecto para obtener el Naam y la liberación, pues sin la guía de alguien que sea el \"Verbo hecho carne\", el alma permanece perdida en el laberinto de sus propias creaciones mentales. El autor insiste en la importancia de la humildad extrema, exhortando a los buscadores a considerarse \"uno y un cuarto mejores\" a los demás y a no herir el corazón de nadie, pues es allá donde reside la Divinidad. La obra también aclara que el éxito en el sendero no depende de ritos, sino de la pureza interna y de la obediencia implícita a los mandamientos del Satgurú, quien actúa como la \"escalera de Jacob\" que conecta la tierra con el cielo.\",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El contenido se divide estructuralmente en discursos formales y conversaciones informales. Los discursos abordan la esencia de la lucha interna contra la mente y Maya, explicando que el ser humano no podrá conocerse a sí mismo hasta que se eleve por encima de estas influencias ilusorias. Sant Ji enfatiza que el alma es un rayo de Dios y de la misma esencia que la Superalma, por lo que el mensaje central del Maestro Kirpal Singh, \"Conócete a ti mismo\", es el eje de la práctica. Un aspecto clave de la obra es la descripción de la austeridad de los cinco fuegos y otros rituales externos, los cuales Sant Ji realizó en su juventud solo para concluir enfáticamente que no brindan beneficio espiritual real, reafirmando que solo el Naam (el Verbo) otorga la liberación.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "En el Palacio del Amor",
-                     "microdescripción":  "Esta obra es una recopilación de comentarios profundos sobre el Asa Di Vars, una sección fundamental de las escrituras Sikhs escrita principalmente por Guru Nanak. "
+                     "microdescripcion":  "Esta obra es una recopilacion de comentarios profundos sobre el Asa Di Vars, una seccin fundamental de las escrituras Sikhs escrita principalmente por Guru Nanak. "
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Joya.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Ajaib Singh Ji",
                      "ruta":  "",
-                     "descripción":  "Contenido Estructural: Se compone de 24 capótulos (Ashtapadis) comentados por Sant Ajaib Singh Ji, quien traduce conceptos complejos en mensajes claros para la época actual. Incluye también semblanzas biográficas de ambos Maestros.\Temas Clave: La obra exalta la gloria y la sombra del Naam como la única medicina para todas las enfermedades y la única riqueza que acompaña al alma tras la muerte. Profundiza en la importancia de la compasión de los Santos (Sangat), la soberanía de la Voluntad de Dios (Hukam) y el estado de paz suprema que se alcanza al liberarse de los cinco enemigos internos a través de la meditación. Es considerada una \"joya\" porque transmite felicidad directa a la mente mediante la alabanza divina.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "En las conversaciones, el autor muestra un sentido del humor penetrante y una percepción interna de los problemas humanos, guiando a los discípulos de Sant Kirpal Singh tras la partida física de este último. Sant Ji relata experiencias personales sobre cómo el Maestro Kirpal se manifestaba dentro de él incluso antes de conocerlo físicamente, y cómo el Poder Maestro es el dueño de toda la creación, permeando el agua, la tierra y el aire. La obra también detalla la importancia del Simran (repetición) y cómo la atención debe estar siempre en la forma del Maestro para recibir su protección constante como una sombra que nunca abandona al discípulo. Finalmente, el libro funciona como una guía ética, tratando temas como la castidad, la dieta vegetariana y la necesidad de no herir a nadie, pues el cuerpo humano es el verdadero templo donde reside Dios.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "La Joya de la Felicidad",
-                     "microdescripción":  "Este texto es una versión al espaóol del Sukhmani Sahib, un fragmento fundamental de la escritura sagrada Sikh (Guru Granth Sahib), escrito originalmente por el quinto Gurú Sikh, Arjan Dev compasión de los Santos"
+                     "microdescripcion":  "Este texto es una versin al español del Sukhmani Sahib, un fragmento fundamental de la escritura sagrada Sikh (Guru Granth Sahib), escrito originalmente por el quinto Gur Sikh, Arjan Devcompaa de los Santos"
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Los%20Dos%20Caminos.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Ajaib Singh Ji",
                      "ruta":  "",
-                     "descripción":  "Esta obra, titulada Los Dos Caminos, es un comentario espiritual del maestro Ajaib Singh sobre las enseñanzas del Guru Ramdas, cuarto gurú de los sikhs, centrado en la distinción fundamental entre el Gurumukh y el manmukh. El texto estructura una comparación detallada entre estas dos formas de existencia: mientras que el Gurumukh vive orientado hacia la voluntad del Maestro y la pureza interna, el manmukh actúa bajo el dominio del ego, los deseos sensoriales y la hipocresía social. A través de anécdotas históricas de diversos santos y metáforas sobre la naturaleza, el autor enfatiza que la verdadera espiritualidad requiere un trabajo arduo y silencioso de meditación en el Naam (la Palabra Divina) para purificar el espóritu. El propósito principal del escrito es exhortar al buscador a abandonar las trampas de la mente y la soberbia intelectual para alcanzar la liberación del alma mediante la humildad y la devoción incondicional al Satgurú.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "Esta obra, titulada Los Dos Caminos, es un comentario espiritual del maestro Ajaib Singh sobre las enseñanzas del Guru Ramdas, cuarto gurú de los sijs, centrado en la distinción fundamental entre el Gurumukh y el manmukh. El texto estructura una comparación detallada entre estas dos formas de existencia: mientras que el Gurumukh vive orientado hacia la voluntad del Maestro y la pureza interna, el manmukh actúa bajo el dominio del ego, los deseos sensoriales y la hipocresía social. A través de anécdotas históricas de diversos santos y metáforas sobre la naturaleza, el autor enfatiza que la verdadera espiritualidad requiere un trabajo arduo y silencioso de meditación en el Naam (la Palabra Divina) para purificar el espíritu. El propósito principal del escrito es exhortar al buscador a abandonar las trampas de la mente y la soberbia intelectual para alcanzar la liberación del alma mediante la humildad y la devoción incondicional al Satgurú.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Los Dos Caminos",
-                     "microdescripción":  "Los Dos Caminos, es un comentario espiritual del maestro Ajaib Singh sobre las enseñanzas del Guru Ramdas"
+                     "microdescripcion":  "Los Dos Caminos, es un comentario espiritual del maestro Ajaib Singh sobre las enseñanzas del Guru Ramdas."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/AutoIntro.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "Este texto es un compendio de las enseñanzas de Kirpal Singh, un destacado maestro espiritual que detalla el camino hacia la autorrealización a través de la auto introspección y la meditación. La obra estructura la evolución del discípulo en etapas, enfatizando que la formación del ser humano y la purificación del carácter son requisitos indispensables antes de alcanzar planos espirituales elevados. El autor propone el uso de un diario espiritual como una herramienta científica de autoanálisis para monitorear y erradicar fallas en pensamiento, palabra y acción, transformando asó los hábitos negativos en virtudes. Temas centrales como la no violencia (Ahimsa), el control de los sentidos y el desapego del mundo material se presentan como el suelo fértil necesario para que la semilla de la iniciación florezca. En última instancia, el propósito del texto es guiar al individuo hacia una disciplina ética rigurosa que permita la comunión con la Luz y el Sonido internos bajo la dirección de un guía espiritual.",
-                     "subcategoría":  "Sendero Sant Mat",
-                     "titulo":  "Auto introspección y Meditación",
-                     "micro descripción":  "Enseñanzas de Kirpal Singh, un destacado maestro espiritual que detalla el camino hacia la autorrealización a través de la auto introspección y la meditación."
+                     "descripcion":  "Este texto es un compendio de las enseñanzas de Kirpal Singh, un destacado maestro espiritual que detalla el camino hacia la autorrealización a través de la autointrospección y la meditación. La obra estructura la evolución del discípulo en etapas, enfatizando que la formación del ser humano y la purificación del carácter son requisitos indispensables antes de alcanzar planos espirituales elevados. El autor propone el uso de un diario espiritual como una herramienta científica de autoanálisis para monitorear y erradicar fallas en pensamiento, palabra y acción, transformando así los hábitos negativos en virtudes. Temas centrales como la no violencia (Ahimsa), el control de los sentidos y el desapego del mundo material se presentan como el suelo fértil necesario para que la semilla de la iniciación florezca. En última instancia, el propósito del texto es guiar al individuo hacia una disciplina ética rigurosa que permita la comunión con la Luz y el Sonido internos bajo la dirección de un guía espiritual.",
+                     "subcategoria":  "Sendero Sant Mat",
+                     "titulo":  "Autointrospección y Meditación",
+                     "microdescripcion":  "Enseñanzas de Kirpal Singh, un destacado maestro espiritual que detalla el camino hacia la autorrealización a través de la autointrospección y la meditación."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Misterio.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  " El autor detalla la trayectoria de Singh desde su formación bajo la guía de su propio maestro hasta su labor global como promotor de la unidad humana y presidente de la Fraternidad Mundial de Religiones. A través de este perfil, se subraya que su misión consistió en enseñar el Surat Shabd Yoga, un método práctico para conectar el alma individual con la corriente divina de luz y sonido mediante una experiencia directa. Finalmente, el escrito funciona como una introducción a su libro El misterio de la muerte, argumentando que la transición física no debe ser temida, sino comprendida como un nacimiento gozoso hacia una existencia superior y consciente.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El autor detalla la trayectoria de Singh desde su formación bajo la guía de su propio maestro hasta su labor global como promotor de la unidad humana y presidente de la Fraternidad Mundial de Religiones. A través de este perfil, se subraya que su misión consistió en enseñar el Surat Shabd Yoga, un método práctico para conectar el alma individual con la corriente divina de luz y sonido mediante una experiencia directa. Finalmente, el escrito funciona como una introducción a su libro El misterio de la muerte, argumentando que la transición física no debe ser temida, sino comprendida como un nacimiento gozoso hacia una existencia superior y consciente.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Misterio de la muerte",
-                     "micro descripción":  "Este texto presenta una reseña biográfica y doctrinal de Sant Kirpal Singh, a quien describe como un maestro espiritual y místico fundamental del siglo XX dedicado a la \"Ciencia del Alma\"."
+                     "microdescripcion":  "Este texto presenta una reseña biográfica y doctrinal de Sant Kirpal Singh, a quien describe como un maestro espiritual y místico fundamental del siglo XX dedicado a la \"Ciencia del Alma\"."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Sendero.pdf\n",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "La obra establece que el ser humano vive en un estado desilusión y esclavitud debido a que su atención está dispersa en el mundo externo a través de los sentidos y una mente inquieta. Para trascender esta condición, el autor enfatiza la necesidad absoluta de un Maestro vivo, quien actúa como un polo de energía divina capaz de otorgar la iniciación y conectar al alma con la corriente interna de luz y Sonido. El propósito fundamental del texto es guiar al buscador hacia el autoconocimiento y la disciplina ética, utilizando el Satsang la compasión espiritual, como una herramienta esencial para purificar el carácter y mantener la protección interna. Finalmente, se explica que la salvación no se encuentra en ritos externos, sino en la capacidad de retirar la atención del cuerpo para experimentar conscientemente el Reino de Dios en vida.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "La obra establece que el ser humano vive en un estado de ilusión y esclavitud debido a que su atención está dispersa en el mundo externo a través de los sentidos y una mente inquieta. Para trascender esta condición, el autor enfatiza la necesidad absoluta de un Maestro vivo, quien actúa como un polo de energía divina capaz de otorgar la iniciación y conectar al alma con la corriente interna de Luz y Sonido. El propósito fundamental del texto es guiar al buscador hacia el autoconocimiento y la disciplina ética, utilizando el Satsang o compañía espiritual como una herramienta esencial para purificar el carácter y mantener la protección interna. Finalmente, se explica que la salvación no se encuentra en ritos externos, sino en la capacidad de retirar la atención del cuerpo para experimentar conscientemente el Reino de Dios en vida.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "El Sendero Sagrado",
-                     "microdescripción":  "Este texto es una compilación de las enseñanzas deóKirpal Singh, un destacado guía espiritual que presenta el Surat Shabd Yogaó como el camino natural para la realización divina."
+                     "microdescripcion":  "Este texto es una compilación de las enseñanzas de Kirpal Singh, un destacado guía espiritual que presenta el Surat Shabd Yoga como el camino natural para la realización divina."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Hombre%20Con%C3%B3cete%20a%20T%C3%AD%20Mismo.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "El autor estructura su discurso examinando la transición de las creencias teóricas hacia una experiencia práctica y personal, la cual permite al individuo trascender el ciclo del karma y el temor a la muerte. A través de la mediación de un Maestro viviente, se explica cómo el ser humano puede sintonizar con la corriente interna de luz y sonido, conocida como el Verbo o Shabd, para alcanzar la liberación espiritual. Finalmente, la obra establece requisitos éticos como la pureza de carácter y el vegetarianismo, presentando la meditación no como un dogma religioso, sino como un método científico natural para regresar al origen divino mientras se vive en el mundo.",
-                     "subcategoría":  "Sendero Sant Mat",
-                     "titulo":  "Hombre Conócete a Ti Mismo",
-                     "microdescripción":  "Este texto constituye una guía fundamental sobre la ciencia de la espiritualidad  Sant Mat, diseñada para orientar al buscador en el proceso de autoanálisis y conocimiento del alma."
+                     "descripcion":  "El autor estructura su discurso examinando la transición de las creencias teóricas hacia una experiencia práctica y personal, la cual permite al individuo trascender el ciclo del karma y el temor a la muerte. A través de la mediación de un Maestro viviente, se explica cómo el ser humano puede sintonizar con la corriente interna de luz y sonido, conocida como el Verbo o Shabd, para alcanzar la liberación espiritual. Finalmente, la obra establece requisitos éticos como la pureza de carácter y el vegetarianismo, presentando la meditación no como un dogma religioso, sino como un método científico natural para regresar al origen divino mientras se vive en el mundo.",
+                     "subcategoria":  "Sendero Sant Mat",
+                     "titulo":  "Hombre Conócete a Ti Mismo",
+                     "microdescripcion":  "Este texto constituye una guía fundamental sobre la ciencia de la espiritualidad o Sant Mat, diseñada para orientar al buscador en el proceso de autoanálisis y conocimiento del alma."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Hombres.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "La obra propone que la Ciencia del Alma (Surat Shabd Yoga) es el camino para que el ser humano despierte de su letargo espiritual y logre la comunión con Dios a través del contacto con el Verbo o Naam. El autor utiliza su propia experiencia bajo la guía de Baba Sawan Singh para ilustrar que el Maestro actúa como una conexión viviente entre la creación y el Creador, permitiendo al buscador navegar las confusiones del mundo interno y externo. En última instancia, el propósito del escrito es guiar a las almas de regreso a su hogar espiritual, enfatizando que la figura del Hombre-Dios es la encarnación de la Palabra manifestada para el beneficio de la humanidad.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "La obra propone que la Ciencia del Alma (Surat Shabd Yoga) es el camino para que el ser humano despierte de su letargo espiritual y logre la comunión con Dios a través del contacto con el Verbo o Naam. El autor utiliza su propia experiencia bajo la guía de Baba Sawan Singh para ilustrar que el Maestro actúa como una conexión viviente entre la creación y el Creador, permitiendo al buscador navegar las confusiones del mundo interno y externo. En última instancia, el propósito del escrito es guiar a las almas de regreso a su hogar espiritual, enfatizando que la figura del Hombre-Dios es la encarnación de la Palabra manifestada para el beneficio de la humanidad.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Hombre-Dios",
-                     "microdescripción":  "Este texto es una introducción al libro Hombre-Dios, escrito por el místico indio Kirpal Singh, que detalla la naturaleza y la función de un Maestro espiritual perfecto en la búsqueda de lo divino."
+                     "microdescripcion":  "Este texto es una introducción al libro Hombre-Dios, escrito por el místico indio Kirpal Singh, que detalla la naturaleza y la función de un Maestro espiritual perfecto en la búsqueda de lo divino."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/La%20Corona%20de%20la%20Vida.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "La fuente detalla cómo el autor logró armonizar sus altas responsabilidades gubernamentales y familiares con una profunda disciplina interna bajo la tutela de su maestro, Baba Sawan Singh Ji, para luego liderar organizaciones mundiales dedicadas a la unidad humana. El libro adjunto, titulado \"La Corona de la Vida\", funciona como un estudio comparativo sobre el yoga, explorando desde las bases técnicas de los antiguos sistemas hasta la relación metafísica entre el alma, la materia y el Creador. En esencia, el material busca servir como un testimonio moderno de la realización espiritual, ofreciendo métodos prácticos para que cualquier individuo pueda alcanzar la paz y reflejar la voluntad divina en la actualidad.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "La fuente detalla cómo el autor logró armonizar sus altas responsabilidades gubernamentales y familiares con una profunda disciplina interna bajo la tutela de su maestro, Baba Sawan Singh Ji, para luego liderar organizaciones mundiales dedicadas a la unidad humana. El libro adjunto, titulado \"La Corona de la Vida\", funciona como un estudio comparativo sobre el yoga, explorando desde las bases técnicas de los antiguos sistemas hasta la relación metafísica entre el alma, la materia y el Creador. En esencia, el material busca servir como un testimonio moderno de la realización espiritual, ofreciendo métodos prácticos para que cualquier individuo pueda alcanzar la paz y reflejar la voluntad divina en la actualidad.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "La Corona de la Vida",
-                     "microdescripción":  "Este texto presenta una reseña biográfica y el esquema temático de la obra de Kirpal Singh, un destacado guía espiritual que dedicó su vida a difundir un camino natural hacia la divinidad basado en el amor universal. "
+                     "microdescripcion":  "Este texto presenta una reseña biográfica y el esquema temático de la obra de Kirpal Singh, un destacado guía espiritual que dedicó su vida a difundir un camino natural hacia la divinidad basado en el amor universal."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/La%20Luz%20de%20Kirpal.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "La obra funciona como una guía práctica de espiritualidad y autorrealización, donde se explora la naturaleza del Poder Maestro y la capacidad del guía para elevar el alma por sobre la conciencia del cuerpo. A través de un diálogo cercano, se abordan temas fundamentales como el control de la mente, la importancia de llevar un diario de auto-introspección y la necesidad de cultivar una vida virtuosa basada en la castidad, el vegetarianismo y el servicio desinteresado. El propósito central de estas enseñanzas es orientar al buscador para que se convierta en un consciente co-trabajador del Plan Divino, logrando asó trascender las ataduras del karma y la ilusión del mundo físico para regresar a su verdadero hogar espiritual.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "La obra funciona como una guía práctica de espiritualidad y autorrealización, donde se explora la naturaleza del Poder Maestro y la capacidad del guía para elevar el alma por sobre la conciencia del cuerpo. A través de un diálogo cercano, se abordan temas fundamentales como el control de la mente, la importancia de llevar un diario de autointrospección y la necesidad de cultivar una vida virtuosa basada en la castidad, el vegetarianismo y el servicio desinteresado. El propósito central de estas enseñanzas es orientar al buscador para que se convierta en un consciente cotrabajador del Plan Divino, logrando así trascender las ataduras del karma y la ilusión del mundo físico para regresar a su verdadero hogar espiritual.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "La Luz de Kirpal",
-                     "microdescripción":  "Este texto constituye una transcripción de sesiones de preguntas y respuestas entre el maestro espiritual Sant Kirpal Singh Ji y sus discípulos, llevadas a cabo entre 1969 y 1971. "
+                     "microdescripcion":  "Este texto constituye una transcripción de sesiones de preguntas y respuestas entre el maestro espiritual Sant Kirpal Singh Ji y sus discípulos, llevadas a cabo entre 1969 y 1971."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Realizacion.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "El autor explica que, aunque las religiones sociales son estructuras necesarias para el orden humano y el respeto, estas representan únicamente un paso elemental al propósito final es fomentar el amor a Dios. La enseñanza central sostiene que la Realidad absoluta es inexpresable y trasciende el intelecto humano, por lo cual no puede ser comprendida a través de libros o ritos externos, sino únicamente mediante una experiencia interna directa. En última instancia, el escrito invita a los buscadores de la verdad a silenciar sus pensamientos y emociones para lograr un contacto con la Realidad que habita más allá de las diferencias superficiales de cada credo.",
-                     "subcategoría":  "Sendero Sant Mat",
-                     "titulo":  "La Realización de Dios",
-                     "microdescripción":  "Este texto es una introducción biográfica y doctrinal sobre Kirpal Singh, un destacado guía espiritual que dedicó su vida a enseñar el camino hacia la autorrealización y el conocimiento de lo divino"
+                     "descripcion":  "El autor explica que, aunque las religiones sociales son estructuras necesarias para el orden humano y el respeto, estas representan únicamente un paso elemental cuyo propósito final es fomentar el amor a Dios. La enseñanza central sostiene que la Realidad absoluta es inexpresable y trasciende el intelecto humano, por lo cual no puede ser comprendida a través de libros o ritos externos, sino únicamente mediante una experiencia interna directa. En última instancia, el escrito invita a los buscadores de la verdad a silenciar sus pensamientos y emociones para lograr un contacto con la Realidad que habita más allá de las diferencias superficiales de cada credo.",
+                     "subcategoria":  "Sendero Sant Mat",
+                     "titulo":  "La Realización de Dios",
+                     "microdescripcion":  "Este texto es una introducción biográfica y doctrinal sobre Kirpal Singh, un destacado guía espiritual que dedicó su vida a enseñar el camino hacia la autorrealización y el conocimiento de lo divino."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Rueda.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "El autor desglosa la estructura de esta ley en tres categoróas fundamentales: el Sanchit o almacón de acciones pasadas, el Pralabdha que constituye el destino inevitable de la vida presente, y el Kriyaman, que representa el libre albedróo para moldear el futuro. A través de una perspectiva móstica, se explica que la mente es el motor de estos deseos, pero que el ser humano puede trascender esta \"rueda de la vida\" mediante el contacto con el Verbo o Naam. El propósito último del texto es presentar la Ciencia del Alma como un método práctico para que, bajo la guía de un Maestro viviente, el individuo logre la liberación espiritual y regrese a su fuente divina original.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El autor desglosa la estructura de esta ley en tres categorías fundamentales: el Sanchit o almacén de acciones pasadas, el Pralabdha que constituye el destino inevitable de la vida presente, y el Kriyaman, que representa el libre albedrío para moldear el futuro. A través de una perspectiva mística, se explica que la mente es el motor de estos deseos, pero que el ser humano puede trascender esta \"rueda de la vida\" mediante el contacto con el Verbo o Naam. El propósito último del texto es presentar la Ciencia del Alma como un método práctico para que, bajo la guía de un Maestro viviente, el individuo logre la liberación espiritual y regrese a su fuente divina original.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "La Rueda de la Vida",
-                     "microdescripción":  "Este texto es un compendio espiritual de Kirpal Singh que explora la ley del karma, definida como la fuerza de acción y reacción que encadena al alma al ciclo de nacimientos y muertes."
+                     "microdescripcion":  "Este texto es un compendio espiritual de Kirpal Singh que explora la ley del karma, definida como la fuerza de acción y reacción que encadena al alma al ciclo de nacimientos y muertes."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Siete%20Senderos%20a%20Perfeccion.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "El autor propone siete requisitos éticos y prácticos, entre los que destacan la no violencia (Ahimsa), la veracidad y una dieta vegetariana estricta, como el suelo fértil necesario para alcanzar la madurez espiritual. A través de la auto introspección y el servicio desinteresado, el individuo logra purificar su mente y armonizarse con la Luz y el Sonido Divinos bajo la guía de un Maestro. El propósito final de estas enseñanzas es que el alma se libere de sus ataduras mundanas para alcanzar la perfección espiritual y vivir en un estado de amor universal.",
-                     "subcategoría":  "Sendero Sant Mat",
-                     "titulo":  "Siete Senderos a Perfección",
-                     "microdescripción":  "Este texto de Sant Kirpal Singh describe un proceso de transformación interna donde el buscador de la verdad cultiva su espíritu como si fuera una semilla sagrada. "
+                     "descripcion":  "El autor propone siete requisitos éticos y prácticos, entre los que destacan la no violencia (Ahimsa), la veracidad y una dieta vegetariana estricta, como el suelo fértil necesario para alcanzar la madurez espiritual. A través de la autointrospección y el servicio desinteresado, el individuo logra purificar su mente y armonizarse con la Luz y el Sonido Divinos bajo la guía de un Maestro. El propósito final de estas enseñanzas es que el alma se libere de sus ataduras mundanas para alcanzar la perfección espiritual y vivir en un estado de amor universal.",
+                     "subcategoria":  "Sendero Sant Mat",
+                     "titulo":  "Siete Senderos a Perfección",
+                     "microdescripcion":  "Este texto de Sant Kirpal Singh describe un proceso de transformación interna donde el buscador de la verdad cultiva su espíritu como si fuera una semilla sagrada."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/SimranEspanol.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  " El autor estructura su mensaje explicando que el propósito de la vida es liberar el alma de la mente y la materia para regresar a su origen eterno, un proceso que requiere la guía de un Maestro Verdadero y el contacto con la Corriente del Sonido o Verbo interior. A través de metáforas elegantes y referencias a diversas tradiciones religiosas, se enfatiza que la verdadera espiritualidad no reside en rituales externos como el uso de rosarios, sino en una concentración interna realizada en el \"tercer ojo\" para alcanzar la paz infinita. En última instancia, el texto busca transformar al buscador mediante una disciplina ética y meditativa que permite al espíritu trascender el cuerpo físico y experimentar la bienaventuranza eterna mientras aún se vive en el mundo.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El autor estructura su mensaje explicando que el propósito de la vida es liberar el alma de la mente y la materia para regresar a su origen eterno, un proceso que requiere la guía de un Maestro Verdadero y el contacto con la Corriente del Sonido o Verbo interior. A través de metáforas elegantes y referencias a diversas tradiciones religiosas, se enfatiza que la verdadera espiritualidad no reside en rituales externos como el uso de rosarios, sino en una concentración interna realizada en el \"tercer ojo\" para alcanzar la paz infinita. En última instancia, el texto busca transformar al buscador mediante una disciplina ética y meditativa que permite al espíritu trascender el cuerpo físico y experimentar la bienaventuranza eterna mientras aún se vive en el mundo.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Simran: El Dulce Recuerdo de Dios",
-                     "microdescripción":  "Este texto es una guía espiritual profunda redactada por Sant Kirpal Singh Ji, centrada en la práctica del Simran, definida como el dulce recuerdo de Dios a través de la repetición mental de Sus nombres originales. "
+                     "microdescripcion":  "Este texto es una guía espiritual profunda redactada por Sant Kirpal Singh Ji, centrada en la práctica del Simran, definida como el dulce recuerdo de Dios a través de la repetición mental de Sus nombres originales."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Vida%20y%20ensenanzas%20de%20Sawan%20Singh.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "El texto integra diversos escritos y conferencias que detallan desde el nacimiento de Hazur en 1858 hasta sus últimos días, presentándolo como un guía espiritual moderno capaz de orientar a las almas hacia la Realidad. A través de un relato que equilibra los deberes mundanos con la predestinación divina, el autor enfatiza que su preceptor fue una personificación de la moralidad y un portavoz de la voluntad superior en la tierra. En última instancia, el propósito del documento es preservar el legado de un Dios-hombre cuyo servicio a la humanidad sirvió como un puente entre el plano material y el sendero de la verdad.",
-                     "subcategoría":  "Sendero Sant Mat",
-                     "titulo":  "Vida y Enseñanzas de Baba Sawan Singh Ji",
-                     "microdescripción":  "Esta obra constituye una recopilación biográfica de Sant Kirpal Singh, diseñada para documentar la trayectoria espiritual y humana de su maestro, Baba Sawan Singh Ji. "
+                     "descripcion":  "El texto integra diversos escritos y conferencias que detallan desde el nacimiento de Hazur en 1858 hasta sus ltimos das, presentndolo como un gua espiritual moderno capaz de orientar a las almas hacia la Realidad. A travs de un relato que equilibra los deberes mundanos con la predestinacin divina, el autor enfatiza que su preceptor fue una personificacin de la moralidad y un portavoz de la voluntad superior en la tierra. En ltima instancia, el propsito del documento es preservar el legado de un Dios-hombre cuyo servicio a la humanidad sirvi como un puente entre el plano material y el sendero de la verdad.\n\n\n\n\n\n\n\n\n\n",
+                     "subcategoria":  "Sendero Sant Mat",
+                     "titulo":  "Vida y Enseñanzas de Baba Sawan Singh Ji",
+                     "microdescripcion":  "Esta obra constituye una recopilación biográfica de Sant Kirpal Singh, diseñada para documentar la trayectoria espiritual y humana de su maestro, Baba Sawan Singh Ji."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/El%20Mensaje%20del%20Amor.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Sant Kirpal Singh Ji",
                      "ruta":  "",
-                     "descripción":  " El texto estructura su enseñanza a través de las voces de tres guías espirituales Sawan Singh, Kirpal Singh y Ajaib Singh, quienes enfatizan que la verdadera autorrealización comienza con el autoanálisis y el retiro voluntario de la conciencia del cuerpo fósico para explorar reinos internos. El propósito central es guiar al buscador hacia una experiencia práctica y directa de la Luz y el Sonido divinos, superando la teoría religiosa mediante una vida ética, el vegetarianismo y la guía de un Maestro viviente. En última instancia, el libro presenta la espiritualidad no como un dogma, sino como una ciencia natural del amor y la introspección que permite al ser humano trascender el ciclo del karma y el miedo a la muerte.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El texto estructura su enseñanza a través de las voces de tres guías espirituales —Sawan Singh, Kirpal Singh y Ajaib Singh—, quienes enfatizan que la verdadera autorrealización comienza con el autoanálisis y el retiro voluntario de la conciencia del cuerpo físico para explorar reinos internos. El propósito central es guiar al buscador hacia una experiencia práctica y directa de la Luz y el Sonido divinos, superando la teoría religiosa mediante una vida ética, el vegetarianismo y la guía de un Maestro viviente. En última instancia, el libro presenta la espiritualidad no como un dogma, sino como una ciencia natural del amor y la introspección que permite al ser humano trascender el ciclo del karma y el miedo a la muerte.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "El Mensaje del Amor",
-                     "microdescripción":  "Esta obra literaria constituye una introducción fundamental a Sant Mat o el \"Sendero de los Maestros\", una antigua disciplina espiritual que busca la unión del alma con el Creador mediante la práctica del Surat Shabd Yoga."
+                     "microdescripcion":  "Esta obra literaria constituye una introducción fundamental a Sant Mat o el \"Sendero de los Maestros\", una antigua disciplina espiritual que busca la unión del alma con el Creador mediante la práctica del Surat Shabd Yoga."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Vida%20y%20ensenanzas%20de%20Sawan%20Singh.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Maestros Baba Sawan Singh Ji",
                      "ruta":  "",
-                     "descripción":  " La obra detalla el despertar espiritual del maestro desde su juventud, su encuentro trascendental con Baba Jaimal Singh y su posterior dedicación a guiar a miles de buscadores hacia la realización interna. A través de relatos sobre su integridad moral, actos de compasión durante conflictos sociales y supuestos hechos milagrosos, el autor ilustra la naturaleza de un Maestro Perfecto. El propósito central de la fuente es preservar el legado de sabiduría de Sawan Singh y formalizar la transmisión del trabajo espiritual hacia Kirpal Singh para continuar la difusión de la ciencia del alma.",
-                     "subcategoría":  "Sendero Sant Mat",
-                     "titulo":  "Vida y Enseñanzas de Baba Sawan Singh Ji",
-                     "microdescripción":  "Este texto es un estudio biográfico sobre la vida y enseñanzas de Baba Sawan Singh Ji, un destacado maestro espiritual del linaje Sant Mat, redactado por su discípulo Sant Kirpal Singh Ji. "
+                     "descripcion":  "La obra detalla el despertar espiritual del maestro desde su juventud, su encuentro trascendental con Baba Jaimal Singh y su posterior dedicación a guiar a miles de buscadores hacia la realización interna. A través de relatos sobre su integridad moral, actos de compasión durante conflictos sociales y supuestos hechos milagrosos, el autor ilustra la naturaleza de un Maestro Perfecto. El propósito central de la fuente es preservar el legado de sabiduría de Sawan Singh y formalizar la transmisión del trabajo espiritual hacia Kirpal Singh para continuar la difusión de la ciencia del alma.\n\nLa obra detalla el despertar espiritual del maestro desde su juventud, su encuentro trascendental con Baba Jaimal Singh y su posterior dedicación a guiar a miles de buscadores hacia la realización interna. A través de relatos sobre su integridad moral, actos de compasión durante conflictos sociales y supuestos hechos milagrosos, el autor ilustra la naturaleza de un Maestro Perfecto. El propósito central de la fuente es preservar el legado de sabiduría de Sawan Singh y formalizar la transmisión del trabajo espiritual hacia Kirpal Singh para continuar la difusión de la ciencia del alma.\n\n",
+                     "subcategoria":  "Sendero Sant Mat",
+                     "titulo":  "Vida y Enseñanzas de Baba Sawan Singh Ji",
+                     "microdescripcion":  "Este texto es un estudio biográfico sobre la vida y enseñanzas de Baba Sawan Singh Ji, un destacado maestro espiritual del linaje Sant Mat, redactado por su discípulo Sant Kirpal Singh Ji."
                  },
                  {
                      "enlace":  "https://mediaseva1.dsmynas.net/_%20Sant%20Mat%20Castellano/Libros%20y%20Revistas/Libros/Cartas%20Espirituales.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Baba Jaimal Singh Ji",
                      "ruta":  "",
-                     "descripción":  "La obra fundamenta la filosofía de Sant Mat, explicando que el sendero hacia la liberación no reside en religiones externas ni rituales, sino en la conexión interna con la Corriente del Sonido o Shabd, una fuerza divina que habita dentro de cada ser humano. A través de relatos biográficos, se detalla la búsqueda incansable de Baba Jaimal Singh por el secreto de los Cinco Sonidos, culminando en su encuentro con su maestro Swami Ji y su posterior vida de devoción mientras cumplía con sus deberes militares. El propósito central del texto es demostrar, mediante consejos prácticos y testimonios de intervención divina, que el progreso espiritual y las responsabilidades del mundo pueden coexistir si el alma se mantiene anclada en el Simran y el desapego. Finalmente, las cartas enfatizan la figura del Sat Guru como un protector constante que guía al discípulo para saldar sus deudas kármicas y alcanzar la paz eterna en Sach Khand.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "La obra fundamenta la filosofía de Sant Mat, explicando que el sendero hacia la liberación no reside en religiones externas ni rituales, sino en la conexión interna con la Corriente del Sonido o Shabd, una fuerza divina que habita dentro de cada ser humano. A través de relatos biográficos, se detalla la búsqueda incansable de Baba Jaimal Singh por el secreto de los Cinco Sonidos, culminando en su encuentro con su maestro Swami Ji y su posterior vida de devoción mientras cumplía con sus deberes militares. El propósito central del texto es demostrar, mediante consejos prácticos y testimonios de intervención divina, que el progreso espiritual y las responsabilidades del mundo pueden coexistir si el alma se mantiene anclada en el Simran y el desapego. Finalmente, las cartas enfatizan la figura del Sat Gurú como un protector constante que guía al discípulo para saldar sus deudas kármicas y alcanzar la paz eterna en Sach Khand.\n\nCambios realizados:\n\n«filosofa» ? filosofía (tilde en í)\n\n«liberacin» ? liberación (tilde en ó)\n\n«conexin» ? conexión (tilde en ó)\n\n«A travs» ? A través (tilde en é)\n\n«biogrficos» ? biográficos (tilde en á)\n\n«bsqueda» ? búsqueda (tilde en ú)\n\n«devocin» ? devoción (tilde en ó)\n\n«cumpla» ? cumplía (tilde en í)\n\n«propsito» ? propósito (tilde en ó)\n\n«prcticos» ? prácticos (tilde en á)\n\n«intervencin» ? intervención (tilde en ó)\n\n«gua» (en \"que gua\") ? guía (tilde en í)\n\n«discpulo» ? discípulo (tilde en í)\n\n«krmicas» ? kármicas (tilde en á)\n\n«Sat Guru» ? Sat Gurú (tilde en ú para indicar pronunciación aguda)\n\n\n",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Cartas Espirituales",
-                     "microdescripción":  "Este texto es una introducción histórica y espiritual al libro Cartas Espirituales, el cual recopila la correspondencia enviada por Baba Jaimal Singh Ji Maharaj a su discípulo y sucesor, Maharaj Sawan Singh."
+                     "microdescripcion":  "Este texto es una introducción histórica y espiritual al libro Cartas Espirituales, el cual recopila la correspondencia enviada por Baba Jaimal Singh Ji Maharaj a su discípulo y sucesor, Maharaj Sawan Singh."
                  },
                  {
                      "enlace":  "https://mediaseva.com/books/Ensenanzas/Sangat.pdf",
-                     "categoría":  "espiritual",
+                     "categoria":  "espiritual",
                      "autor":  "Oberoi",
                      "ruta":  "",
-                     "descripción":  "El texto detalla su transición de una destacada carrera como ingeniero militar hacia su verdadera misión como Maestro Perfecto, tras ser iniciado en los misterios del Naam por su propio mentor, Baba Jaimal Singh. A través de un relato estructurado en episodios de su vida, se subraya que el propósito de estos seres iluminados es actuar como un puente hacia la Realidad Divina, guiando a las almas a través de la meditación y la obediencia implícita para liberarlas de las ataduras de la mente y la materia. Finalmente, la obra funciona como un testimonio de devoción y consuelo para la comunidad de discípulos, enfatizando que la presencia y el poder del Maestro trascienden su existencia física.",
-                     "subcategoría":  "Sendero Sant Mat",
+                     "descripcion":  "El texto detalla su transición de una destacada carrera como ingeniero militar hacia su verdadera misión como Maestro Perfecto, tras ser iniciado en los misterios del Naam por su propio mentor, Baba Jaimal Singh. A través de un relato estructurado en episodios de su vida, se subraya que el propósito de estos seres iluminados es actuar como un puente hacia la Realidad Divina, guiando a las almas a través de la meditación y la obediencia implícita para liberarlas de las ataduras de la mente y la materia. Finalmente, la obra funciona como un testimonio de devoción y consuelo para la comunidad de discípulos, enfatizando que la presencia y el poder del Maestro trascienden su existencia física.",
+                     "subcategoria":  "Sendero Sant Mat",
                      "titulo":  "Apoyo al Sangat Conmovido",
-                     "microdescripción":  "Este fragmento presenta la biografía y las enseñanzas de Baba Sawan Singh Ji, un venerado guía espiritual que ocupó un lugar central en la tradición del Santuario de Beas."
-
+                     "microdescripcion":  "Este fragmento presenta la biografía y las enseñanzas de Baba Sawan Singh Ji, un venerado guía espiritual que ocupó un lugar central en la tradición del Santuario de Beas."
                  },
                  {
                      "enlace":  "https://drive.google.com/file/d/1ArCqlnqx9oQz1FFNn9XQ0aHyeEpTl-Nb/view?usp=drive_link",
@@ -587,7 +240,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "POSTULACION ",
+                     "titulo":  "POSTULACIÓN",
                      "microdescripcion":  ""
                  },
                  {
@@ -597,7 +250,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "PLANILLA DE INSCRIPCION CEM PARA LOS ODDI",
+                     "titulo":  "PLANILLA DE INSCRIPCIÓN CEM PARA LOS ODDI",
                      "microdescripcion":  ""
                  },
                  {
@@ -607,7 +260,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "CEDULA Y RIF",
+                     "titulo":  "CÉDULA Y RIF",
                      "microdescripcion":  ""
                  },
                  {
@@ -627,7 +280,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "Título de bachiller ",
+                     "titulo":  "Título de bachiller",
                      "microdescripcion":  ""
                  },
                  {
@@ -657,7 +310,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "Historico de Notas TSU",
+                     "titulo":  "Histórico de Notas TSU",
                      "microdescripcion":  ""
                  },
                  {
@@ -667,7 +320,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "AprobaciÃ³n de Proyecto",
+                     "titulo":  "Aprobación de Proyecto",
                      "microdescripcion":  ""
                  },
                  {
@@ -687,7 +340,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "Certificado Trb Socio Comunitarios 2011",
+                     "titulo":  "Certificado Trab. Socio Comunitarios 2011",
                      "microdescripcion":  ""
                  },
                  {
@@ -703,7 +356,7 @@
                  {
                      "enlace":  "https://drive.google.com/file/d/1f9HM_jSU3SzMoMP8Cki1GvY8NP0H77z-/view?usp=drive_link",
                      "categoria":  "personal",
-                     "autor":  "Dirección nacional de riego ",
+                     "autor":  "Direccin nacional de riego ",
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
@@ -713,11 +366,11 @@
                  {
                      "enlace":  "https://drive.google.com/file/d/1eGOYYOOYIab4AwKXN1IUSZ9vOrD7zJeB/view?usp=drive_link",
                      "categoria":  "personal",
-                     "autor":  "Dirección nacional de riego ",
+                     "autor":  "Direccin nacional de riego ",
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Datos",
-                     "titulo":  "Formato de InspecciÃ³n Integral",
+                     "titulo":  "Formato de Inspección Integral",
                      "microdescripcion":  ""
                  },
                  {
@@ -747,7 +400,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Presentaciones",
-                     "titulo":  "Plan Punto y Circulo",
+                     "titulo":  "Plan Punto y Círculo",
                      "microdescripcion":  ""
                  },
                  {
@@ -757,7 +410,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Presentaciones",
-                     "titulo":  "SISTEMA DE SEGUIMIENTO OPERATIVO ESTRATÃ‰GICO",
+                     "titulo":  "SISTEMA DE SEGUIMIENTO OPERATIVO ESTRATÉGICO",
                      "microdescripcion":  ""
                  },
                  {
@@ -767,7 +420,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Presentaciones",
-                     "titulo":  "Guerra popular de Resitencia",
+                     "titulo":  "Guerra popular de Resistencia",
                      "microdescripcion":  ""
                  },
                  {
@@ -817,7 +470,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Presentaciones",
-                     "titulo":  "UNIDAD 1 Generalidades del Fondo Verde para el ",
+                     "titulo":  "UNIDAD 1 Generalidades del Fondo Verde para el",
                      "microdescripcion":  ""
                  },
                  {
@@ -827,7 +480,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Presentaciones",
-                     "titulo":  "UNIDAD 2 PreparaciÃ³n de Proyectos para el Fondo",
+                     "titulo":  "UNIDAD 2 Preparación de Proyectos para el Fondo",
                      "microdescripcion":  ""
                  },
                  {
@@ -837,7 +490,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Presentaciones",
-                     "titulo":  "UNIDAD 3 Programa de PaÃ­s",
+                     "titulo":  "UNIDAD 3 Programa de País",
                      "microdescripcion":  ""
                  },
                  {
@@ -887,7 +540,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Libro",
-                     "titulo":  "El Ayuno TerapÃ©utico como Proceso de RegeneraciÃ³n Celular",
+                     "titulo":  "El Ayuno Terapéutico como Proceso de Regeneración Celular",
                      "microdescripcion":  ""
                  },
                  {
@@ -897,7 +550,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Libro",
-                     "titulo":  "La CuraciÃ³n Por El AYUNO",
+                     "titulo":  "La Curación Por El AYUNO",
                      "microdescripcion":  ""
                  },
                  {
@@ -907,7 +560,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Libro",
-                     "titulo":  "Protocolo de RealimentaciÃ³n Post",
+                     "titulo":  "Protocolo de Realimentación Post",
                      "microdescripcion":  ""
                  },
                  {
@@ -927,7 +580,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Libro",
-                     "titulo":  "Protocolo Previo Obligatorio para la RealizaciÃ³n de un Ayuno TerapÃ©utico",
+                     "titulo":  "Protocolo Previo Obligatorio para la Realización de un Ayuno Terapéutico",
                      "microdescripcion":  ""
                  },
                  {
@@ -957,7 +610,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Libro",
-                     "titulo":  "Pare La Diabetes en 14 Dias - Dr. Ludwig Johnson",
+                     "titulo":  "Pare La Diabetes en 14 Días - Dr. Ludwig Johnson",
                      "microdescripcion":  ""
                  },
                  {
@@ -967,7 +620,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Libro",
-                     "titulo":  "GuÃ­a de Episodios de MetabolismoTV",
+                     "titulo":  "Guía de Episodios de MetabolismoTV",
                      "microdescripcion":  ""
                  },
                  {
@@ -1037,7 +690,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Documento",
-                     "titulo":  "InspecciÃ³n de riesgo",
+                     "titulo":  "Inspección de riesgo",
                      "microdescripcion":  ""
                  },
                  {
@@ -1057,7 +710,7 @@
                      "ruta":  "",
                      "descripcion":  "",
                      "subcategoria":  "Documento",
-                     "titulo":  "OFICIO DE RECEPCION DE DOCUMENTOS",
+                     "titulo":  "OFICIO DE RECEPCIÓN DE DOCUMENTOS",
                      "microdescripcion":  ""
                  }
              ]
