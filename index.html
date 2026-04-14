@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Gerard Kenny · Consola de Mando Profesional</title>
+    <meta name="description" content="Consola profesional de Gerard Kenny José Sieveres Buitrago: Programas Educativos, Tecnología Social, Documentos personales y materiales de apoyo.">
+    <meta property="og:title" content="Gerard Kenny · Consola de Mando Profesional">
+    <meta property="og:description" content="Accede a todos mis proyectos, recursos y documentos desde un solo lugar.">
+    <meta property="og:image" content="https://i.ibb.co/yn4n2b4C/foto-kenny.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-body: #f0f2f5;
+            --bg-container: white;
+            --text-primary: #1e2b3c;
+            --header-bg: linear-gradient(135deg, #0A1929 0%, #1E3A5F 100%);
+            --card-bg: #f9fbfd;
+            --border-color: #e0e8f0;
+            --tag-bg: #e0f0fa;
+            --shadow: 0 20px 40px -10px rgba(0,20,30,0.2);
+        }
+        body.dark {
+            --bg-body: #121212;
+            --bg-container: #1e1e2f;
+            --text-primary: #e0e0e0;
+            --header-bg: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 100%);
+            --card-bg: #2a2a3c;
+            --border-color: #3a3a4e;
+            --tag-bg: #2a3a4e;
+            --shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            background: var(--bg-body);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: var(--bg-container);
+            border-radius: 28px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        .header {
+            background: var(--header-bg);
+            color: white;
+            padding: 35px 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid #00C48C;
+            object-fit: cover;
+        }
+        .header-info {
+            flex: 1;
+        }
+        .header-info h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .header-info .title {
+            font-size: 1.2rem;
+            color: #a0c8e0;
+            margin-bottom: 12px;
+        }
+        .contact-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95rem;
+        }
+        .contact-item i {
+            color: #00C48C;
+        }
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+        }
+        .dark-toggle {
+            background: #00C48C20;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.2s;
+        }
+        .dark-toggle:hover {
+            background: #00C48C;
+        }
+        .dashboard {
+            padding: 30px 40px;
+        }
+        .comandos-principales {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+        .cmd-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 10px 22px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 40px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-primary);
+        }
+        .cmd-btn.active {
+            background: #00C48C;
+            color: #0A1929;
+            border-color: #00C48C;
+        }
+        .search-box {
+            margin-bottom: 25px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .search-box input {
+            flex: 1;
+            padding: 12px 20px;
+            border-radius: 50px;
+            border: 1px solid var(--border-color);
+            background: var(--card-bg);
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+        .seccion-contenido {
+            display: none;
+            animation: fade 0.2s;
+        }
+        .seccion-contenido.active-seccion {
+            display: block;
+        }
+        @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+        .subcomando {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .subcomando-header {
+            padding: 16px 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-left: 6px solid #00C48C;
+        }
+        .subcomando-body {
+            padding: 0 20px 20px 20px;
+            display: none;
+            border-top: 1px solid var(--border-color);
+        }
+        .subcomando.open .subcomando-body {
+            display: block;
+        }
+        .toggle-icon {
+            transition: transform 0.2s;
+        }
+        .subcomando.open .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: var(--bg-container);
+            border-radius: 20px;
+            padding: 18px;
+            border: 1px solid var(--border-color);
+            transition: 0.2s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: #00C48C;
+        }
+        .card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 6px;
+            color: var(--text-primary);
+        }
+        .card .autor {
+            font-size: 0.8rem;
+            color: #00C48C;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .card .micro {
+            font-size: 0.85rem;
+            color: var(--text-primary);
+            opacity: 0.8;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .descripcion-completa {
+            display: none;
+            font-size: 0.85rem;
+            background: var(--card-bg);
+            padding: 12px;
+            border-radius: 12px;
+            margin: 10px 0;
+            border-left: 3px solid #00C48C;
+        }
+        .btn-leer-mas {
+            background: none;
+            border: none;
+            color: #00C48C;
+            font-size: 0.75rem;
+            cursor: pointer;
+            padding: 0;
+            margin-bottom: 12px;
+            display: inline-block;
+        }
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .btn-sm {
+            background: var(--tag-bg);
+            border: none;
+            padding: 6px 12px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        .footer {
+            background: var(--card-bg);
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border-color);
+        }
+        @media (max-width: 700px) {
+            .dashboard { padding: 20px; }
+            .header { flex-direction: column; text-align: center; }
+            .contact-bar { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <img src="https://i.ibb.co/yn4n2b4C/foto-kenny.png" alt="Gerard Kenny" class="profile-img">
+        <div class="header-info">
+            <h1>Gerard Kenny José Sieveres Buitrago</h1>
+            <div class="title">Experto en Desarrollo de Programas Educativos y Tecnología Social</div>
+            <div class="contact-bar">
+                <span class="contact-item"><i class="fas fa-map-marker-alt"></i> Caracas, Venezuela</span>
+                <span class="contact-item"><i class="fas fa-phone-alt"></i> +58 414 3169947</span>
+                <span class="contact-item"><i class="fas fa-envelope"></i> <a href="mailto:sieveresk@gmail.com">sieveresk@gmail.com</a></span>
+                <span class="contact-item"><i class="fab fa-telegram"></i> <a href="https://t.me/sieveres" target="_blank">@sieveres</a></span>
+            </div>
+        </div>
+        <button class="dark-toggle" id="darkModeToggle"><i class="fas fa-moon"></i></button>
+    </div>
+
+    <div class="dashboard">
+        <div class="comandos-principales">
+            <button class="cmd-btn" data-seccion="educacion"><i class="fas fa-graduation-cap"></i> Programas Educativos</button>
+            <button class="cmd-btn" data-seccion="tecnosocial"><i class="fas fa-microchip"></i> Tecnología Social</button>
+            <button class="cmd-btn" data-seccion="pdfs"><i class="fas fa-folder-open"></i> Documentos y PDFs</button>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Buscar por título, autor, descripción...">
+        </div>
+
+        <div id="seccion-educacion" class="seccion-contenido"><div id="educacion-container"></div></div>
+        <div id="seccion-tecnosocial" class="seccion-contenido"><div id="tecnosocial-container"></div></div>
+
+        <div id="seccion-pdfs" class="seccion-contenido">
+            <div id="navegacion-pdfs"></div>
+            <div id="pdfs-cards-container" class="cards-grid"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <i class="fas fa-sync-alt"></i> Consola actualizada dinámicamente · <a href="mailto:sieveresk@gmail.com">contacto</a>
+    </div>
+</div>
+
+<script>
+    let dataGlobal = null;
+    let currentSearch = "";
+    let currentCategoria = null;
+    let currentSubcategoria = null;
+    let currentAutor = null;
+    let pdfsFiltrados = [];
+
+    async function cargarData() {
+        try {
+            const response = await fetch('data.json');
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            dataGlobal = await response.json();
+            renderizarTodo();
+        } catch(e) {
+            console.error(e);
+            document.getElementById('educacion-container').innerHTML = '<p style="color:red;">Error cargando data.json</p>';
+            document.getElementById('tecnosocial-container').innerHTML = '';
+            document.getElementById('navegacion-pdfs').innerHTML = '<p style="color:red;">Error cargando documentos</p>';
+        }
+    }
+
+    function renderizarComandos(containerId, subcomandos) {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        container.innerHTML = '';
+        subcomandos.forEach(sub => {
+            let enlaces = sub.enlaces || [];
+            if (currentSearch) {
+                enlaces = enlaces.filter(e =>
+                    (e.titulo && e.titulo.toLowerCase().includes(currentSearch)) ||
+                    (e.microdescripcion && e.microdescripcion.toLowerCase().includes(currentSearch)) ||
+                    (e.descripcion && e.descripcion.toLowerCase().includes(currentSearch))
+                );
+            }
+            if (enlaces.length === 0 && currentSearch !== "") return;
+            const subDiv = document.createElement('div');
+            subDiv.className = 'subcomando';
+            subDiv.innerHTML = `
+                <div class="subcomando-header">
+                    <span><i class="${sub.icono || 'fas fa-folder'}"></i> ${sub.nombre} (${enlaces.length})</span>
+                    <i class="fas fa-chevron-down toggle-icon"></i>
+                </div>
+                <div class="subcomando-body"><div class="cards-grid" id="grid-${sub.nombre.replace(/\s/g, '')}"></div></div>
+            `;
+            const grid = subDiv.querySelector('.cards-grid');
+            enlaces.forEach(enlace => {
+                const card = crearTarjeta({
+                    titulo: enlace.titulo,
+                    autor: enlace.autor || '',
+                    microdescripcion: enlace.microdescripcion || '',
+                    descripcion: enlace.descripcion || '',
+                    enlace: enlace.url,
+                    ruta: ''
+                });
+                grid.appendChild(card);
+            });
+            subDiv.querySelector('.subcomando-header').addEventListener('click', () => subDiv.classList.toggle('open'));
+            container.appendChild(subDiv);
+        });
+    }
+
+    function crearTarjeta(item) {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const url = item.enlace ? item.enlace : (item.ruta ? `pdf/${item.ruta}` : '#');
+        const titulo = item.titulo || 'Sin título';
+        const autor = item.autor || '';
+        const micro = item.microdescripcion || '';
+        const descCompleta = item.descripcion || '';
+        const idUnico = Math.random().toString(36).substring(2);
+        card.innerHTML = `
+            <h3>${titulo}</h3>
+            ${autor ? `<div class="autor"><i class="fas fa-user"></i> ${autor}</div>` : ''}
+            <div class="micro">${micro.length > 150 ? micro.substring(0,150)+'...' : micro}</div>
+            <button class="btn-leer-mas" data-id="${idUnico}">📖 Leer más</button>
+            <div class="descripcion-completa" id="desc-${idUnico}">${descCompleta}</div>
+            <div class="btn-group">
+                <a class="btn-sm" href="${url}" target="_blank"><i class="fas fa-eye"></i> Ver</a>
+                <button class="btn-sm share-email" data-url="${url}" data-titulo="${titulo}"><i class="fas fa-envelope"></i> Correo</button>
+                <button class="btn-sm share-wa" data-url="${url}" data-titulo="${titulo}"><i class="fab fa-whatsapp"></i> WhatsApp</button>
+                <button class="btn-sm share-tg" data-url="${url}" data-titulo="${titulo}"><i class="fab fa-telegram"></i> Telegram</button>
+                <button class="btn-sm copy-link" data-url="${url}"><i class="fas fa-link"></i> Copiar enlace</button>
+            </div>
+        `;
+        const btnLeer = card.querySelector('.btn-leer-mas');
+        const descDiv = card.querySelector('.descripcion-completa');
+        btnLeer.addEventListener('click', () => {
+            if (descDiv.style.display === 'none' || descDiv.style.display === '') {
+                descDiv.style.display = 'block';
+                btnLeer.innerHTML = '📖 Leer menos';
+            } else {
+                descDiv.style.display = 'none';
+                btnLeer.innerHTML = '📖 Leer más';
+            }
+        });
+        card.querySelector('.share-email').addEventListener('click', () => {
+            const subject = encodeURIComponent(`Documento: ${titulo}`);
+            const body = encodeURIComponent(`Mira este recurso: ${url}`);
+            window.location.href = `mailto:?subject=${subject}&body=${body}`;
+        });
+        card.querySelector('.share-wa').addEventListener('click', () => {
+            const text = encodeURIComponent(`📄 *${titulo}* - ${url}`);
+            window.open(`https://wa.me/?text=${text}`, '_blank');
+        });
+        card.querySelector('.share-tg').addEventListener('click', () => {
+            const text = encodeURIComponent(`📄 ${titulo}\n${url}`);
+            window.open(`https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(titulo)}`, '_blank');
+        });
+        card.querySelector('.copy-link').addEventListener('click', () => {
+            navigator.clipboard.writeText(url);
+            alert('Enlace copiado al portapapeles');
+        });
+        return card;
+    }
+
+    function inicializarNavegacionPDFs() {
+        if (!dataGlobal || !dataGlobal.pdfs) return;
+        currentCategoria = null;
+        currentSubcategoria = null;
+        currentAutor = null;
+        aplicarFiltroBusquedaPDFs();
+        renderNavegacionPDFs();
+    }
+
+    function aplicarFiltroBusquedaPDFs() {
+        if (!dataGlobal || !dataGlobal.pdfs) return;
+        let filtrados = dataGlobal.pdfs;
+        if (currentSearch) {
+            filtrados = filtrados.filter(p =>
+                (p.titulo && p.titulo.toLowerCase().includes(currentSearch)) ||
+                (p.autor && p.autor.toLowerCase().includes(currentSearch)) ||
+                (p.microdescripcion && p.microdescripcion.toLowerCase().includes(currentSearch)) ||
+                (p.descripcion && p.descripcion.toLowerCase().includes(currentSearch))
+            );
+        }
+        pdfsFiltrados = filtrados;
+        renderNavegacionPDFs();
+    }
+
+    function renderNavegacionPDFs() {
+        const contenedor = document.getElementById('navegacion-pdfs');
+        const cardsContainer = document.getElementById('pdfs-cards-container');
+        if (!contenedor || !cardsContainer) return;
+
+        let categorias = [...new Set(pdfsFiltrados.map(p => p.categoria))];
+        if (currentCategoria === null) {
+            contenedor.innerHTML = `
+                <div class="nivel-bloque" style="display:flex; flex-wrap:wrap; gap:12px; margin-bottom:20px;">
+                    ${categorias.map(cat => `<button class="btn-nivel" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;" data-cat="${cat}">${cat.toUpperCase()}</button>`).join('')}
+                </div>
+            `;
+            cardsContainer.innerHTML = '';
+            document.querySelectorAll('.btn-nivel').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentCategoria = btn.getAttribute('data-cat');
+                    currentSubcategoria = null;
+                    currentAutor = null;
+                    renderNavegacionPDFs();
+                });
+            });
+            return;
+        }
+        let pdfsEnCategoria = pdfsFiltrados.filter(p => p.categoria === currentCategoria);
+        let subcategorias = [...new Set(pdfsEnCategoria.map(p => p.subcategoria).filter(s => s && s !== ""))];
+        if (subcategorias.length === 0) {
+            contenedor.innerHTML = `
+                <div style="margin-bottom:10px;"><button class="btn-nivel" id="volver-cats" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">← Volver a categorías</button></div>
+                <div style="font-weight:600; margin-bottom:15px;">Mostrando documentos de ${currentCategoria.toUpperCase()}</div>
+            `;
+            cardsContainer.innerHTML = '';
+            pdfsEnCategoria.forEach(pdf => {
+                const card = crearTarjeta({
+                    titulo: pdf.titulo,
+                    autor: pdf.autor ? pdf.autor.replace(/_/g, ' ') : '',
+                    microdescripcion: pdf.microdescripcion || '',
+                    descripcion: pdf.descripcion || '',
+                    enlace: pdf.enlace,
+                    ruta: pdf.ruta || ''
+                });
+                cardsContainer.appendChild(card);
+            });
+            document.getElementById('volver-cats')?.addEventListener('click', () => {
+                currentCategoria = null;
+                renderNavegacionPDFs();
+            });
+            return;
+        }
+        if (currentSubcategoria === null) {
+            contenedor.innerHTML = `
+                <div style="margin-bottom:10px;"><button class="btn-nivel" id="volver-cats" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">← Volver a categorías</button></div>
+                <div class="nivel-sub" style="display:flex; flex-wrap:wrap; gap:12px; margin-bottom:20px;">
+                    ${subcategorias.map(sub => `<button class="btn-nivel" data-sub="${sub}" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">${sub.replace(/_/g, ' ').toUpperCase()}</button>`).join('')}
+                </div>
+            `;
+            cardsContainer.innerHTML = '';
+            document.getElementById('volver-cats')?.addEventListener('click', () => {
+                currentCategoria = null;
+                renderNavegacionPDFs();
+            });
+            document.querySelectorAll('.btn-nivel[data-sub]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentSubcategoria = btn.getAttribute('data-sub');
+                    currentAutor = null;
+                    renderNavegacionPDFs();
+                });
+            });
+            return;
+        }
+        let pdfsEnSub = pdfsEnCategoria.filter(p => p.subcategoria === currentSubcategoria);
+        let autores = [...new Set(pdfsEnSub.map(p => p.autor).filter(a => a && a !== ""))];
+        if (autores.length === 0) {
+            contenedor.innerHTML = `
+                <div style="margin-bottom:10px;"><button class="btn-nivel" id="volver-sub" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">← Volver a subcategorías</button></div>
+                <div style="font-weight:600; margin-bottom:15px;">Mostrando documentos de ${currentSubcategoria.replace(/_/g, ' ')}</div>
+            `;
+            cardsContainer.innerHTML = '';
+            pdfsEnSub.forEach(pdf => {
+                const card = crearTarjeta({
+                    titulo: pdf.titulo,
+                    autor: pdf.autor ? pdf.autor.replace(/_/g, ' ') : '',
+                    microdescripcion: pdf.microdescripcion || '',
+                    descripcion: pdf.descripcion || '',
+                    enlace: pdf.enlace,
+                    ruta: pdf.ruta || ''
+                });
+                cardsContainer.appendChild(card);
+            });
+            document.getElementById('volver-sub')?.addEventListener('click', () => {
+                currentSubcategoria = null;
+                renderNavegacionPDFs();
+            });
+            return;
+        }
+        if (currentAutor === null) {
+            contenedor.innerHTML = `
+                <div style="margin-bottom:10px;"><button class="btn-nivel" id="volver-sub" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">← Volver a subcategorías</button></div>
+                <div class="nivel-autor" style="display:flex; flex-wrap:wrap; gap:12px; margin-bottom:20px;">
+                    ${autores.map(aut => `<button class="btn-nivel" data-autor="${aut}" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">${aut.replace(/_/g, ' ').toUpperCase()}</button>`).join('')}
+                </div>
+            `;
+            cardsContainer.innerHTML = '';
+            document.getElementById('volver-sub')?.addEventListener('click', () => {
+                currentSubcategoria = null;
+                renderNavegacionPDFs();
+            });
+            document.querySelectorAll('.btn-nivel[data-autor]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    currentAutor = btn.getAttribute('data-autor');
+                    renderNavegacionPDFs();
+                });
+            });
+            return;
+        }
+        let pdfsMostrar = pdfsEnSub.filter(p => p.autor === currentAutor);
+        contenedor.innerHTML = `
+            <div style="margin-bottom:10px;"><button class="btn-nivel" id="volver-autores" style="background:var(--card-bg); border:1px solid var(--border-color); border-radius:40px; padding:8px 18px; cursor:pointer;">← Volver a autores</button></div>
+            <div style="font-weight:600; margin-bottom:15px;">Mostrando PDFs de ${currentAutor.replace(/_/g, ' ')}</div>
+        `;
+        cardsContainer.innerHTML = '';
+        pdfsMostrar.forEach(pdf => {
+            const card = crearTarjeta({
+                titulo: pdf.titulo,
+                autor: pdf.autor ? pdf.autor.replace(/_/g, ' ') : '',
+                microdescripcion: pdf.microdescripcion || '',
+                descripcion: pdf.descripcion || '',
+                enlace: pdf.enlace,
+                ruta: pdf.ruta || ''
+            });
+            cardsContainer.appendChild(card);
+        });
+        document.getElementById('volver-autores')?.addEventListener('click', () => {
+            currentAutor = null;
+            renderNavegacionPDFs();
+        });
+    }
+
+    function renderizarTodo() {
+        if (!dataGlobal) return;
+        const edu = dataGlobal.comandos.find(c => c.id === 'educacion');
+        if (edu) renderizarComandos('educacion-container', edu.subcomandos);
+        const ts = dataGlobal.comandos.find(c => c.id === 'tecnosocial');
+        if (ts) renderizarComandos('tecnosocial-container', ts.subcomandos);
+        inicializarNavegacionPDFs();
+    }
+
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+        currentSearch = e.target.value.toLowerCase().trim();
+        if (document.getElementById('seccion-pdfs').classList.contains('active-seccion')) {
+            aplicarFiltroBusquedaPDFs();
+        } else {
+            renderizarTodo();
+        }
+    });
+
+    function activarSeccion(seccionId) {
+        document.querySelectorAll('.seccion-contenido').forEach(sec => sec.classList.remove('active-seccion'));
+        document.getElementById(`seccion-${seccionId}`).classList.add('active-seccion');
+        document.querySelectorAll('.cmd-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelector(`.cmd-btn[data-seccion="${seccionId}"]`).classList.add('active');
+        localStorage.setItem('lastSection', seccionId);
+        if (seccionId === 'pdfs') {
+            aplicarFiltroBusquedaPDFs();
+        }
+    }
+
+    document.querySelectorAll('.cmd-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const seccion = btn.getAttribute('data-seccion');
+            activarSeccion(seccion);
+        });
+    });
+
+    const darkToggle = document.getElementById('darkModeToggle');
+    if (localStorage.getItem('darkMode') === 'enabled') {
+        document.body.classList.add('dark');
+        darkToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+    darkToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+        if (document.body.classList.contains('dark')) {
+            localStorage.setItem('darkMode', 'enabled');
+            darkToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            localStorage.setItem('darkMode', 'disabled');
+            darkToggle.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+    });
+
+    cargarData().then(() => {
+        let last = localStorage.getItem('lastSection');
+        if (last && ['educacion', 'tecnosocial', 'pdfs'].includes(last)) activarSeccion(last);
+        else activarSeccion('educacion');
+    });
+</script>
+</body>
+</html>
