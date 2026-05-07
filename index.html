@@ -390,7 +390,7 @@
     function crearTarjeta(item) {
         const card = document.createElement('div');
         card.className = 'card';
-        const url = item.enlace ? item.enlace : (item.ruta ? `pdf/${item.ruta}` : '#');
+        const url = item.enlace ? item.enlace : (item.ruta ? `pdf/${encodeURIComponent(item.ruta)}` : '#');
         const titulo = item.titulo || 'Sin título';
         const autor = item.autor || '';
         const micro = item.microdescripcion || '';
