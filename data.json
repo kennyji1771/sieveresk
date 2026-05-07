@@ -1,649 +1,666 @@
 {
-    "comandos": {
-        "id": "educacion",
-        "subcomandos": [
-            {
-                "nombre": "Desarrollo de Proyectos",
-                "icono": "fas fa-project-diagram",
-                "enlaces": []
-            },
-            {
-                "nombre": "Seguimiento y Evaluación",
-                "icono": "fas fa-chart-line",
-                "enlaces": []
-            }
-        ]
-    },
+    "comandos": [
+        {
+            "id": "educacion",
+            "subcomandos": [
+                {
+                    "nombre": "Diseño instruccional",
+                    "icono": "fas fa-chalkboard-teacher",
+                    "enlaces": []
+                },
+                {
+                    "nombre": "Evaluación educativa",
+                    "icono": "fas fa-chart-line",
+                    "enlaces": []
+                }
+            ]
+        },
+        {
+            "id": "tecnosocial",
+            "subcomandos": [
+                {
+                    "nombre": "Herramientas digitales comunitarias",
+                    "icono": "fas fa-microchip",
+                    "enlaces": []
+                },
+                {
+                    "nombre": "Gestión de proyectos sociales",
+                    "icono": "fas fa-hands-helping",
+                    "enlaces": []
+                }
+            ]
+        }
+    ],
     "pdfs": [
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Plan Punto Y Circulo",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/001 Plan Punto y Circulo.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "001_Plan_Punto_y_Circulo.pdf",
+            "autor": "",
+            "titulo": "Plan Punto y Circulo",
+            "ruta": "academico\/001_Plan_Punto_y_Circulo.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 001_Plan_Punto_y_Circulo.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "SISTEMA DE SEGUIMIENTO OPERATIVO ESTRATÉGICO",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/001 SISTEMA DE SEGUIMIENTO OPERATIVO ESTRATÉGICO.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
+            "autor": "",
+            "titulo": "SISTEMA DE SEGUIMIENTO OPERATIVO ESTRAT GICO",
+            "ruta": "academico\/001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Guerra Popular De Resitencia",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/002 Guerra popular de Resitencia.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "002_Guerra_popular_de_Resitencia.pdf",
+            "autor": "",
+            "titulo": "Guerra popular de Resitencia",
+            "ruta": "academico\/002_Guerra_popular_de_Resitencia.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 002_Guerra_popular_de_Resitencia.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Hoja De Guerra",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/002 Hoja de Guerra.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "002_Hoja_de_Guerra.pdf",
+            "autor": "",
+            "titulo": "Hoja de Guerra",
+            "ruta": "academico\/002_Hoja_de_Guerra.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 002_Hoja_de_Guerra.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "academico",
+            "subcategoria": "003_PLAN_ARS_2024_2025.pdf",
+            "autor": "",
             "titulo": "PLAN ARS 2024 2025",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/003 PLAN ARS 2024 2025.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "academico\/003_PLAN_ARS_2024_2025.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 003_PLAN_ARS_2024_2025.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "academico",
+            "subcategoria": "004_SAM_PROPUESTA.pdf",
+            "autor": "",
             "titulo": "SAM PROPUESTA",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/004 SAM PROPUESTA.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "academico\/004_SAM_PROPUESTA.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 004_SAM_PROPUESTA.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Proyectos Vinculados",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/005 Proyectos vinculados.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "005_Proyectos_vinculados.pdf",
+            "autor": "",
+            "titulo": "Proyectos vinculados",
+            "ruta": "academico\/005_Proyectos_vinculados.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 005_Proyectos_vinculados.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "UNIDAD 1 Generalidades Del Fondo Verde Para El",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/006 UNIDAD 1 Generalidades del Fondo Verde para el .pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
+            "autor": "",
+            "titulo": "UNIDAD 1 Generalidades del Fondo Verde para el",
+            "ruta": "academico\/006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "UNIDAD 2 Preparación De Proyectos Para El Fondo",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/006 UNIDAD 2 Preparación de Proyectos para el Fondo.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
+            "autor": "",
+            "titulo": "UNIDAD 2 Preparaci n de Proyectos para el Fondo",
+            "ruta": "academico\/006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "UNIDAD 3 Programa De País",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/006 UNIDAD 3 Programa de País.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "academico",
+            "subcategoria": "006_UNIDAD_3_Programa_de_Pa_s.pdf",
+            "autor": "",
+            "titulo": "UNIDAD 3 Programa de Pa s",
+            "ruta": "academico\/006_UNIDAD_3_Programa_de_Pa_s.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 006_UNIDAD_3_Programa_de_Pa_s.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "academico",
+            "subcategoria": "007_PLAN_DE_TRABAJO.pdf",
+            "autor": "",
             "titulo": "PLAN DE TRABAJO",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/academico\/007 PLAN DE TRABAJO.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "academico\/007_PLAN_DE_TRABAJO.pdf",
+            "microdescripcion": "Documento PDF de academico \/ 007_PLAN_DE_TRABAJO.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Poder Del Metabolismo",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/alimentacion\/001 poder-del-metabolismo.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "alimentacion",
+            "subcategoria": "001_poder_del_metabolismo.pdf",
+            "autor": "",
+            "titulo": "poder del metabolismo",
+            "ruta": "alimentacion\/001_poder_del_metabolismo.pdf",
+            "microdescripcion": "Documento PDF de alimentacion \/ 001_poder_del_metabolismo.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Come Y Adelgaza DESAYUNOS MetabolismoTV",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/alimentacion\/002 Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "alimentacion",
+            "subcategoria": "002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
+            "autor": "",
+            "titulo": "Come y adelgaza DESAYUNOS MetabolismoTV",
+            "ruta": "alimentacion\/002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
+            "microdescripcion": "Documento PDF de alimentacion \/ 002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Arroyos En El Desierto",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/ajaib_singh\/001 Arroyos en el Desierto.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "ajaib_singh",
+            "titulo": "Arroyos en el Desierto",
+            "ruta": "espiritual\/sendero_santmat\/ajaib_singh\/001_Arroyos_en_el_Desierto.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "ajaib_singh",
             "titulo": "Palacio",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/ajaib_singh\/009 Palacio.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/ajaib_singh\/009_Palacio.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Anurag Sagar De Kabir",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kabir\/003 Anurag-Sagar-de-Kabir.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kabir",
+            "titulo": "Anurag Sagar de Kabir",
+            "ruta": "espiritual\/sendero_santmat\/kabir\/003_Anurag_Sagar_de_Kabir.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kabir",
             "titulo": "Poemas",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kabir\/005 Poemas.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kabir\/005_Poemas.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Hombre Conócete A Tí Mismo",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/004 Hombre Conócete a Tí Mismo.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
+            "titulo": "Hombre Con cete a T Mismo",
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/004_Hombre_Con_cete_a_T_Mismo.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "Hombres",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/004 Hombres.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/004_Hombres.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "MAN KNOW THYSELF ESP END",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/004 MAN_KNOW_THYSELF_ESP_END.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/004_MAN_KNOW_THYSELF_ESP_END.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "Realizacion",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/006 Realizacion.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/006_Realizacion.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "Rueda",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/007 Rueda.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/007_Rueda.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "Misterio",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/008 Misterio.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/008_Misterio.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "Mensaje",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/012 Mensaje.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/012_Mensaje.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Vida Y Ensenanzas De Sawan Singh",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/017 Vida y ensenanzas de Sawan Singh.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
+            "titulo": "Vida y ensenanzas de Sawan Singh",
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/017_Vida_y_ensenanzas_de_Sawan_Singh.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "Sendero",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/018 Sendero.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/018_Sendero.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "AutoIntro",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/019 AutoIntro.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/019_AutoIntro.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "kirpal_singh",
             "titulo": "ElJapJi",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/kirpal_singh\/020 ElJapJi.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/kirpal_singh\/020_ElJapJi.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "otros",
             "titulo": "AMAGI",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/otros\/022 AMAGI.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/otros\/022_AMAGI.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Libro De La Sabiduria Harry B Joseph 1",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/otros\/Libro-de-La-Sabiduria-Harry-B-Joseph-1.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "otros",
+            "titulo": "Libro de La Sabiduria Harry B Joseph 1",
+            "ruta": "espiritual\/sendero_santmat\/otros\/Libro_de_La_Sabiduria_Harry_B_Joseph_1.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "sadhu_ram",
             "titulo": "Bhajanes 1 207 ESPANOL",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/sadhu_ram\/013 Bhajanes 1-207 ESPANOL.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/sadhu_ram\/013_Bhajanes_1_207_ESPANOL.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "sadhu_ram",
             "titulo": "Bhajanes 208 249 ESPANOL",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/sadhu_ram\/014 Bhajanes 208-249 ESPANOL.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/sadhu_ram\/014_Bhajanes_208_249_ESPANOL.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "sadhu_ram",
             "titulo": "Bhajanes 250 251 ESPANOL",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/sadhu_ram\/015 Bhajanes 250-251 ESPANOL.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/sadhu_ram\/015_Bhajanes_250_251_ESPANOL.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "espiritual",
+            "subcategoria": "sendero_santmat",
+            "autor": "sadhu_ram",
             "titulo": "Bayanes",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/espiritual\/sendero_santmat\/sadhu_ram\/016 Bayanes.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "espiritual\/sendero_santmat\/sadhu_ram\/016_Bayanes.pdf",
+            "microdescripcion": "Documento PDF de espiritual \/ sendero_santmat",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Herbolario Tropical Book Dr Keshava Bhat 1985",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/001 herbolario-tropical-book-dr-keshava-bhat-1985.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
+            "autor": "",
+            "titulo": "herbolario tropical book dr keshava bhat 1985",
+            "ruta": "medicina\/001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "El Ayuno Terapéutico Como Proceso De Regeneración Celular",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/002 El Ayuno Terapéutico como Proceso de Regeneración Celular.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
+            "autor": "",
+            "titulo": "El Ayuno Terap utico como Proceso de Regeneraci n Celular",
+            "ruta": "medicina\/002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "La Curación Por El AYUNO",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/002 La Curación Por El AYUNO.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "002_La_Curaci_n_Por_El_AYUNO.pdf",
+            "autor": "",
+            "titulo": "La Curaci n Por El AYUNO",
+            "ruta": "medicina\/002_La_Curaci_n_Por_El_AYUNO.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 002_La_Curaci_n_Por_El_AYUNO.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "medicina",
+            "subcategoria": "002_Protocolo_Detallado.pdf",
+            "autor": "",
             "titulo": "Protocolo Detallado",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/002 Protocolo Detallado.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "medicina\/002_Protocolo_Detallado.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 002_Protocolo_Detallado.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Protocolo Previo Obligatorio Para La Realización De Un Ayuno Terapéutico",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/002 Protocolo Previo Obligatorio para la Realización de un Ayuno Terapéutico.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
+            "autor": "",
+            "titulo": "Protocolo Previo Obligatorio para la Realizaci n de un Ayuno Terap utico",
+            "ruta": "medicina\/002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Protocolo De Realimentación Post",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/002 Protocolo de Realimentación Post.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "002_Protocolo_de_Realimentaci_n_Post.pdf",
+            "autor": "",
+            "titulo": "Protocolo de Realimentaci n Post",
+            "ruta": "medicina\/002_Protocolo_de_Realimentaci_n_Post.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 002_Protocolo_de_Realimentaci_n_Post.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "medicina",
+            "subcategoria": "003_Diabetes_Sin_Problemas.pdf",
+            "autor": "",
             "titulo": "Diabetes Sin Problemas",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/003 Diabetes Sin Problemas.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "medicina\/003_Diabetes_Sin_Problemas.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 003_Diabetes_Sin_Problemas.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "medicina",
+            "subcategoria": "004_OncologiaYTerapiaGerson.pdf",
+            "autor": "",
             "titulo": "OncologiaYTerapiaGerson",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/004 OncologiaYTerapiaGerson.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "medicina\/004_OncologiaYTerapiaGerson.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 004_OncologiaYTerapiaGerson.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Pare La Diabetes En 14 Dias   Dr. Ludwig Johnson",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/005 Pare La Diabetes en 14 Dias - Dr. Ludwig Johnson.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
+            "autor": "",
+            "titulo": "Pare La Diabetes en 14 Dias Dr Ludwig Johnson",
+            "ruta": "medicina\/005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Guía De Episodios De MetabolismoTV",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/006 Guía de Episodios de MetabolismoTV.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
+            "autor": "",
+            "titulo": "Gu a de Episodios de MetabolismoTV",
+            "ruta": "medicina\/006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Metabolismo Ultra Poderoso Por Frank Sua",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/007 Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
+            "autor": "",
+            "titulo": "Metabolismo Ultra Poderoso por Frank Sua",
+            "ruta": "medicina\/007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "La Medicina De La Nueva Era",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/008 La Medicina de la Nueva Era.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "008_La_Medicina_de_la_Nueva_Era.pdf",
+            "autor": "",
+            "titulo": "La Medicina de la Nueva Era",
+            "ruta": "medicina\/008_La_Medicina_de_la_Nueva_Era.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 008_La_Medicina_de_la_Nueva_Era.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "La Historia De La Nueva Medicina",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/009 La Historia de la Nueva Medicina.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "009_La_Historia_de_la_Nueva_Medicina.pdf",
+            "autor": "",
+            "titulo": "La Historia de la Nueva Medicina",
+            "ruta": "medicina\/009_La_Historia_de_la_Nueva_Medicina.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 009_La_Historia_de_la_Nueva_Medicina.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Gerson  Libro Entero",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/010 Gerson- Libro entero.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "010_Gerson_Libro_entero.pdf",
+            "autor": "",
+            "titulo": "Gerson Libro entero",
+            "ruta": "medicina\/010_Gerson_Libro_entero.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 010_Gerson_Libro_entero.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Conflictos Y Enfermedades",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/011 Conflictos y Enfermedades.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "011_Conflictos_y_Enfermedades.pdf",
+            "autor": "",
+            "titulo": "Conflictos y Enfermedades",
+            "ruta": "medicina\/011_Conflictos_y_Enfermedades.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ 011_Conflictos_y_Enfermedades.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Mapa De Conceptos",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/medicina\/Mapa de conceptos.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "medicina",
+            "subcategoria": "Mapa_de_conceptos.pdf",
+            "autor": "",
+            "titulo": "Mapa de conceptos",
+            "ruta": "medicina\/Mapa_de_conceptos.pdf",
+            "microdescripcion": "Documento PDF de medicina \/ Mapa_de_conceptos.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "POSTULACIÓN",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/001 POSTULACIÓN .pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "001_POSTULACI_N.pdf",
+            "autor": "",
+            "titulo": "POSTULACI N",
+            "ruta": "personal\/001_POSTULACI_N.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 001_POSTULACI_N.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
+            "autor": "",
             "titulo": "PLANILLA DE INSCRIPCION CEM PARA LOS ODDI",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/002 PLANILLA DE INSCRIPCION CEM PARA LOS ODDI.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "003_CEDULA_Y_RIF.pdf",
+            "autor": "",
             "titulo": "CEDULA Y RIF",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/003 CEDULA Y RIF.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/003_CEDULA_Y_RIF.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 003_CEDULA_Y_RIF.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "004_Resumen_Curricular_Abril_2026.pdf",
+            "autor": "",
             "titulo": "Resumen Curricular Abril 2026",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/004 Resumen Curricular Abril 2026.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/004_Resumen_Curricular_Abril_2026.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 004_Resumen_Curricular_Abril_2026.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "TÍTULO BACHILER",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/005 TÍTULO BACHILER.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "005_T_TULO_BACHILER.pdf",
+            "autor": "",
+            "titulo": "T TULO BACHILER",
+            "ruta": "personal\/005_T_TULO_BACHILER.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 005_T_TULO_BACHILER.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "006_Notas_Bachiller.pdf",
+            "autor": "",
             "titulo": "Notas Bachiller",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/006 Notas Bachiller.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/006_Notas_Bachiller.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 006_Notas_Bachiller.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Partida De Nacimiento",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/007 Partida de Nacimiento.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "007_Partida_de_Nacimiento.pdf",
+            "autor": "",
+            "titulo": "Partida de Nacimiento",
+            "ruta": "personal\/007_Partida_de_Nacimiento.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 007_Partida_de_Nacimiento.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Historico De Notas TSU",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/008 Historico de Notas TSU.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "008_1_Constancia_de_culminaci_n_TSU.pdf",
+            "autor": "",
+            "titulo": "1 Constancia de culminaci n TSU",
+            "ruta": "personal\/008_1_Constancia_de_culminaci_n_TSU.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 008_1_Constancia_de_culminaci_n_TSU.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "1 Constancia De Culminación TSU",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/008_1 Constancia de culminación TSU.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "008_Historico_de_Notas_TSU.pdf",
+            "autor": "",
+            "titulo": "Historico de Notas TSU",
+            "ruta": "personal\/008_Historico_de_Notas_TSU.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 008_Historico_de_Notas_TSU.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Aprobación De Proyecto",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/009 Aprobación de Proyecto.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "009_Aprobaci_n_de_Proyecto.pdf",
+            "autor": "",
+            "titulo": "Aprobaci n de Proyecto",
+            "ruta": "personal\/009_Aprobaci_n_de_Proyecto.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 009_Aprobaci_n_de_Proyecto.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Cuenta De Ahorro BV",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/010 Cuenta de ahorro BV.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "010_Cuenta_de_ahorro_BV.pdf",
+            "autor": "",
+            "titulo": "Cuenta de ahorro BV",
+            "ruta": "personal\/010_Cuenta_de_ahorro_BV.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 010_Cuenta_de_ahorro_BV.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
+            "autor": "",
             "titulo": "Certificado Trb Socio Comunitarios 2011",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/011 Certificado Trb Socio Comunitarios 2011.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "012_Reconocimiento_2013.pdf",
+            "autor": "",
             "titulo": "Reconocimiento 2013",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/012 Reconocimiento 2013.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/012_Reconocimiento_2013.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 012_Reconocimiento_2013.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Informe De Riesgo Parque Central",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/013 Informe de riesgo Parque Central.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "013_Informe_de_riesgo_Parque_Central.pdf",
+            "autor": "",
+            "titulo": "Informe de riesgo Parque Central",
+            "ruta": "personal\/013_Informe_de_riesgo_Parque_Central.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 013_Informe_de_riesgo_Parque_Central.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Formato De Inspección Integral",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/014 Formato de Inspección Integral.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "personal",
+            "subcategoria": "014_Formato_de_Inspecci_n_Integral.pdf",
+            "autor": "",
+            "titulo": "Formato de Inspecci n Integral",
+            "ruta": "personal\/014_Formato_de_Inspecci_n_Integral.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 014_Formato_de_Inspecci_n_Integral.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "015_ESTRUCTURA_POR_EDIFICIO.pdf",
+            "autor": "",
             "titulo": "ESTRUCTURA POR EDIFICIO",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/015 ESTRUCTURA POR EDIFICIO.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/015_ESTRUCTURA_POR_EDIFICIO.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 015_ESTRUCTURA_POR_EDIFICIO.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "personal",
+            "subcategoria": "016_ODDI_PLAN.pdf",
+            "autor": "",
             "titulo": "ODDI PLAN",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/personal\/016 ODDI PLAN.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "personal\/016_ODDI_PLAN.pdf",
+            "microdescripcion": "Documento PDF de personal \/ 016_ODDI_PLAN.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "Inspección De Riesgo",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/variados\/Inspección de riesgo.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "variados",
+            "subcategoria": "Inspecci_n_de_riesgo.pdf",
+            "autor": "",
+            "titulo": "Inspecci n de riesgo",
+            "ruta": "variados\/Inspecci_n_de_riesgo.pdf",
+            "microdescripcion": "Documento PDF de variados \/ Inspecci_n_de_riesgo.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
+            "categoria": "variados",
+            "subcategoria": "MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
+            "autor": "",
             "titulo": "MINUTA DE SEGUIMIENTO OPERATIVO",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/variados\/MINUTA DE SEGUIMIENTO OPERATIVO.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "ruta": "variados\/MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
+            "microdescripcion": "Documento PDF de variados \/ MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         },
         {
-            "categoria": "C:",
-            "subcategoria": "xampp",
-            "autor": "htdocs",
-            "titulo": "OFICIO DE RECEPCIÓN DE DOCUMENTOS",
-            "ruta": "C:\/xampp\/htdocs\/sieveresk\/variados\/OFICIO DE RECEPCIÓN DE DOCUMENTOS.pdf",
-            "microdescripcion": "Documento en C: \/ xampp",
-            "descripcion": "Consulta el documento completo usando el botón \"Ver\"."
+            "categoria": "variados",
+            "subcategoria": "OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
+            "autor": "",
+            "titulo": "OFICIO DE RECEPCI N DE DOCUMENTOS",
+            "ruta": "variados\/OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
+            "microdescripcion": "Documento PDF de variados \/ OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
+            "descripcion": "Haz clic en \"Ver\" para abrir el documento."
         }
     ]
 }
