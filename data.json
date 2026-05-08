@@ -1,36 +1,154 @@
 {
     "comandos": [
-        {
-            "id": "educacion",
-            "subcomandos": [
-                {
-                    "nombre": "Diseño instruccional",
-                    "icono": "fas fa-chalkboard-teacher",
-                    "enlaces": []
-                },
-                {
-                    "nombre": "Evaluación educativa",
-                    "icono": "fas fa-chart-line",
-                    "enlaces": []
-                }
-            ]
-        },
-        {
-            "id": "tecnosocial",
-            "subcomandos": [
-                {
-                    "nombre": "Herramientas digitales comunitarias",
-                    "icono": "fas fa-microchip",
-                    "enlaces": []
-                },
-                {
-                    "nombre": "Gestión de proyectos sociales",
-                    "icono": "fas fa-hands-helping",
-                    "enlaces": []
-                }
-            ]
-        }
-    ],
+  {
+    "id": "educacion",
+    "subcomandos": [
+      {
+        "nombre": "Proyectos educativos",
+        "icono": "fas fa-graduation-cap",
+        "enlaces": [
+          {
+            "titulo": "Árbol de sistemas operativos",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Estructura jerárquica de sistemas operativos",
+            "descripcion": "Proyecto educativo que organiza conceptos de sistemas operativos en un árbol interactivo.",
+            "url": "https://vercel.com/sieveresks-projects/tree-sical-os"
+          },
+          {
+            "titulo": "Diagrama Entidad-Relación",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Ejercicio de modelado de bases de datos",
+            "descripcion": "Práctica de diagrama entidad-relación para la materia de bases de datos.",
+            "url": "https://vercel.com/sieveresks-projects/diagrama-entidad-relacion"
+          },
+          {
+            "titulo": "Chuleta - Resumen de estudios",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Material de apoyo para programación",
+            "descripcion": "Recopilación de comandos, sintaxis y conceptos clave para desarrollo.",
+            "url": "https://vercel.com/sieveresks-projects/chuleta"
+          },
+          {
+            "titulo": "Uso Promedio - Estadística",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Cálculo de promedio con datos de ejemplo",
+            "descripcion": "Aplicación educativa para entender el concepto de promedio estadístico.",
+            "url": "https://vercel.com/sieveresks-projects/uso-promedio"
+          },
+          {
+            "titulo": "Programación 2 - Nivel",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Segundo nivel de programación",
+            "descripcion": "Ejercicios y ejemplos de programación estructurada.",
+            "url": "https://vercel.com/sieveresks-projects/programacion-2-nl"
+          },
+          {
+            "titulo": "Curso ODDI",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Curso Estado Mayor ODDI",
+            "descripcion": "Plataforma con navegación en cascada, árboles automáticos y contenido completo del curso.",
+            "url": "https://vercel.com/sieveresks-projects/oddi-curso"
+          },
+          {
+            "titulo": "Sistemas Operativos",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Conceptos fundamentales de SO",
+            "descripcion": "Material teórico y práctico sobre sistemas operativos.",
+            "url": "https://vercel.com/sieveresks-projects/sistemas-operativos"
+          },
+          {
+            "titulo": "PowerShell Scripting",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Automatización con PowerShell",
+            "descripcion": "Guía y ejemplos de scripts en PowerShell para administración.",
+            "url": "https://vercel.com/sieveresks-projects/power-shell"
+          },
+          {
+            "titulo": "HTML Básico",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Introducción a HTML",
+            "descripcion": "Página de ejemplo con etiquetas HTML fundamentales.",
+            "url": "https://vercel.com/sieveresks-projects/html"
+          },
+          {
+            "titulo": "Vida Sana - Salud",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Consejos de alimentación y bienestar",
+            "descripcion": "Proyecto educativo sobre hábitos saludables.",
+            "url": "https://vercel.com/sieveresks-projects/vida-sana"
+          },
+          {
+            "titulo": "Currículum Vitae",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Mi hoja de vida interactiva",
+            "descripcion": "Presentación profesional con experiencia, formación y proyectos.",
+            "url": "https://vercel.com/sieveresks-projects/curr-culum"
+          },
+          {
+            "titulo": "GitHub - Guía básica",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Introducción a control de versiones",
+            "descripcion": "Tutorial práctico de Git y GitHub para principiantes.",
+            "url": "https://vercel.com/sieveresks-projects/github"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tecnosocial",
+    "subcomandos": [
+      {
+        "nombre": "Tecnología para la comunidad",
+        "icono": "fas fa-hand-holding-heart",
+        "enlaces": [
+          {
+            "titulo": "SISPAVE - Sistema de Planificación",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Herramienta de planificación operativa",
+            "descripcion": "Aplicación para la gestión de planes y seguimiento de actividades comunitarias.",
+            "url": "https://vercel.com/sieveresks-projects/sispave"
+          },
+          {
+            "titulo": "Acelerador de Estudio Jurídico",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Apoyo a comunidades legales",
+            "descripcion": "Plataforma que facilita el acceso a información jurídica para organizaciones sociales.",
+            "url": "https://vercel.com/sieveresks-projects/acelerador-estudio-juridico"
+          },
+          {
+            "titulo": "Proyectos Comunitarios",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Gestión de iniciativas vecinales",
+            "descripcion": "Sistema para registrar, dar seguimiento y visibilizar proyectos comunitarios.",
+            "url": "https://vercel.com/sieveresks-projects/proyectos-comunitarios"
+          },
+          {
+            "titulo": "Abastecimiento Estratégico",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Gestión de suministros regionales",
+            "descripcion": "Herramienta para planificar y monitorear el abastecimiento en la Región Capital.",
+            "url": "https://vercel.com/sieveresks-projects/abastecimiento-estrategico"
+          },
+          {
+            "titulo": "SGO Presentación",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Sistema de Gestión Operativa",
+            "descripcion": "Presentación interactiva del Sistema de Gestión Operativa para entidades sociales.",
+            "url": "https://vercel.com/sieveresks-projects/sgo-presentacion"
+          },
+          {
+            "titulo": "Sieveres - Portafolio social",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Recopilación de recursos comunitarios",
+            "descripcion": "Espacio donde se agrupan herramientas y documentos de interés social.",
+            "url": "https://vercel.com/sieveresks-projects/sieveres"
+          }
+        ]
+      }
+    ]
+  }
+],
     "pdfs": [
         {
             "categoria": "academico",
