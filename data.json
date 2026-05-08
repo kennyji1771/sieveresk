@@ -1,100 +1,155 @@
-﻿{
-    "comandos":  [
-                     {
-                         "id":  "educacion",
-                         "subcomandos":  [
-                                             {
-                                                 "nombre":  "Proyectos educativos",
-                                                 "icono":  "fas fa-graduation-cap",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "Ãrbol de sistemas operativos",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Estructura jerÃ¡rquica de sistemas operativos",
-                                                                     "descripcion":  "Proyecto educativo que organiza conceptos de sistemas operativos en un Ã¡rbol interactivo.",
-                                                                     "url":  "https://tree-sical-os.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Diagrama Entidad-RelaciÃ³n",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Ejercicio de modelado de bases de datos",
-                                                                     "descripcion":  "PrÃ¡ctica de diagrama entidad-relaciÃ³n para la materia de bases de datos.",
-                                                                     "url":  "https://diagrama-entidad-relacion.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Chuleta - Resumen de estudios",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Material de apoyo para programaciÃ³n",
-                                                                     "descripcion":  "RecopilaciÃ³n de comandos, sintaxis y conceptos clave para desarrollo.",
-                                                                     "url":  "https://chuleta.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Uso Promedio - EstadÃ­stica",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "CÃ¡lculo de promedio con datos de ejemplo",
-                                                                     "descripcion":  "AplicaciÃ³n educativa para entender el concepto de promedio estadÃ­stico.",
-                                                                     "url":  "https://uso-promedio.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "ProgramaciÃ³n 2 - Nivel",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Segundo nivel de programaciÃ³n",
-                                                                     "descripcion":  "Ejercicios y ejemplos de programaciÃ³n estructurada.",
-                                                                     "url":  "https://programacion-2-nl.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Curso ODDI",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Curso Estado Mayor ODDI",
-                                                                     "descripcion":  "Plataforma con navegaciÃ³n en cascada, Ã¡rboles automÃ¡ticos y contenido completo del curso.",
-                                                                     "url":  "https://oddi-curso.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Sistemas Operativos",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Conceptos fundamentales de SO",
-                                                                     "descripcion":  "Material teÃ³rico y prÃ¡ctico sobre sistemas operativos.",
-                                                                     "url":  "https://sistemas-operativos.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "PowerShell Scripting",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "AutomatizaciÃ³n con PowerShell",
-                                                                     "descripcion":  "GuÃ­a y ejemplos de scripts en PowerShell para administraciÃ³n.",
-                                                                     "url":  "https://power-shell.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "HTML BÃ¡sico",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "IntroducciÃ³n a HTML",
-                                                                     "descripcion":  "PÃ¡gina de ejemplo con etiquetas HTML fundamentales.",
-                                                                     "url":  "https://html.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Vida Sana - Salud",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Consejos de alimentaciÃ³n y bienestar",
-                                                                     "descripcion":  "Proyecto educativo sobre hÃ¡bitos saludables.",
-                                                                     "url":  "https://vida-sana.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "CurrÃ­culum Vitae",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Mi hoja de vida interactiva",
-                                                                     "descripcion":  "PresentaciÃ³n profesional con experiencia, formaciÃ³n y proyectos.",
-                                                                     "url":  "https://curr-culum.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "GitHub - GuÃ­a bÃ¡sica",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "IntroducciÃ³n a control de versiones",
-                                                                     "descripcion":  "Tutorial prÃ¡ctico de Git y GitHub para principiantes.",
-                                                                     "url":  "https://github.vercel.app"
-                                                                 }
-                                                             ]
-                                             }
-                                         ]
-                     },
+{
+	"comandos": [
+  {
+    "id": "educacion",
+    "subcomandos": [
+      {
+        "nombre": "Proyectos educativos",
+        "icono": "fas fa-graduation-cap",
+        "enlaces": [
+          {
+            "titulo": "Árbol de sistemas operativos",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Estructura jerárquica de sistemas operativos",
+            "descripcion": "Proyecto educativo que organiza conceptos de sistemas operativos en un árbol interactivo.",
+            "url": "https://tree-sical-os.vercel.app"
+          },
+          {
+            "titulo": "Diagrama Entidad-Relación",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Ejercicio de modelado de bases de datos",
+            "descripcion": "Práctica de diagrama entidad-relación para la materia de bases de datos.",
+            "url": "https://diagrama-entidad-relacion.vercel.app"
+          },
+          {
+            "titulo": "Chuleta - Resumen de estudios",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Material de apoyo para programación",
+            "descripcion": "Recopilación de comandos, sintaxis y conceptos clave para desarrollo.",
+            "url": "https://chuleta.vercel.app"
+          },
+          {
+            "titulo": "Uso Promedio - Estadística",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Cálculo de promedio con datos de ejemplo",
+            "descripcion": "Aplicación educativa para entender el concepto de promedio estadístico.",
+            "url": "https://uso-promedio.vercel.app"
+          },
+          {
+            "titulo": "Programación 2 - Nivel",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Segundo nivel de programación",
+            "descripcion": "Ejercicios y ejemplos de programación estructurada.",
+            "url": "https://programacion-2-nl.vercel.app"
+          },
+          {
+            "titulo": "Curso ODDI",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Curso Estado Mayor ODDI",
+            "descripcion": "Plataforma con navegación en cascada, árboles automáticos y contenido completo del curso.",
+            "url": "https://oddi-curso.vercel.app"
+          },
+          {
+            "titulo": "Sistemas Operativos",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Conceptos fundamentales de SO",
+            "descripcion": "Material teórico y práctico sobre sistemas operativos.",
+            "url": "https://sistemas-operativos-nine.vercel.app/"
+          },
+          {
+            "titulo": "PowerShell Scripting",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Automatización con PowerShell",
+            "descripcion": "Guía y ejemplos de scripts en PowerShell para administración.",
+            "url": "https://power-shell-nine.vercel.app/"
+          },
+          {
+            "titulo": "HTML Básico",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Introducción a HTML",
+            "descripcion": "Página de ejemplo con etiquetas HTML fundamentales.",
+            "url": "https://html-vert-three.vercel.app/"
+          },
+          {
+            "titulo": "Vida Sana - Salud",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Consejos de alimentación y bienestar",
+            "descripcion": "Proyecto educativo sobre hábitos saludables.",
+            "url": "https://vida-sana-psi.vercel.app/"
+          },
+          {
+            "titulo": "Currículum Vitae",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Mi hoja de vida interactiva",
+            "descripcion": "Presentación profesional con experiencia, formación y proyectos.",
+            "url": "https://curr-culum-nine.vercel.app/"
+          },
+          {
+            "titulo": "GitHub - Guía básica",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Introducción a control de versiones",
+            "descripcion": "Tutorial práctico de Git y GitHub para principiantes.",
+            "url": "https://github-dun-two.vercel.app/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tecnosocial",
+    "subcomandos": [
+      {
+        "nombre": "Tecnología para la comunidad",
+        "icono": "fas fa-hand-holding-heart",
+        "enlaces": [
+          {
+            "titulo": "SISPAVE - Sistema de Planificación",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Herramienta de planificación operativa",
+            "descripcion": "Aplicación para la gestión de planes y seguimiento de actividades comunitarias.",
+            "url": "https://sispave.vercel.app"
+          },
+          {
+            "titulo": "Acelerador de Estudio Jurídico",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Apoyo a comunidades legales",
+            "descripcion": "Plataforma que facilita el acceso a información jurídica para organizaciones sociales.",
+            "url": "https://acelerador-estudio-juridico.vercel.app"
+          },
+          {
+            "titulo": "Proyectos Comunitarios",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Gestión de iniciativas vecinales",
+            "descripcion": "Sistema para registrar, dar seguimiento y visibilizar proyectos comunitarios.",
+            "url": "https://proyectos-comunitarios-one.vercel.app"
+          },
+          {
+            "titulo": "Abastecimiento Estratégico",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Gestión de suministros regionales",
+            "descripcion": "Herramienta para planificar y monitorear el abastecimiento en la Región Capital.",
+            "url": "https://abastecimiento-estrategico.vercel.app"
+          },
+          {
+            "titulo": "SGO Presentación",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Sistema de Gestión Operativa",
+            "descripcion": "Presentación interactiva del Sistema de Gestión Operativa para entidades sociales.",
+            "url": "https://sgo-presentacion.vercel.app"
+          },
+          {
+            "titulo": "Sieveres - Portafolio social",
+            "autor": "Gerard Kenny",
+            "microdescripcion": "Recopilación de recursos comunitarios",
+            "descripcion": "Espacio donde se agrupan herramientas y documentos de interés social.",
+            "url": "https://sieveres.vercel.app"
+          }
+        ]
+      }
+    ]
+  }
+]
+      },
                      {
                          "id":  "tecnosocial",
                          "subcomandos":  [
