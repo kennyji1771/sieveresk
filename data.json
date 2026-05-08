@@ -1,839 +1,784 @@
 {
-	"comandos": [
-  {
-    "id": "educacion",
-    "subcomandos": [
-      {
-        "nombre": "Proyectos educativos",
-        "icono": "fas fa-graduation-cap",
-        "enlaces": [
-          {
-            "titulo": "Árbol de sistemas operativos",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Estructura jerárquica de sistemas operativos",
-            "descripcion": "Proyecto educativo que organiza conceptos de sistemas operativos en un árbol interactivo.",
-            "url": "https://tree-sical-os.vercel.app"
-          },
-          {
-            "titulo": "Diagrama Entidad-Relación",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Ejercicio de modelado de bases de datos",
-            "descripcion": "Práctica de diagrama entidad-relación para la materia de bases de datos.",
-            "url": "https://diagrama-entidad-relacion.vercel.app"
-          },
-          {
-            "titulo": "Chuleta - Resumen de estudios",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Material de apoyo para programación",
-            "descripcion": "Recopilación de comandos, sintaxis y conceptos clave para desarrollo.",
-            "url": "https://chuleta.vercel.app"
-          },
-          {
-            "titulo": "Uso Promedio - Estadística",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Cálculo de promedio con datos de ejemplo",
-            "descripcion": "Aplicación educativa para entender el concepto de promedio estadístico.",
-            "url": "https://uso-promedio.vercel.app"
-          },
-          {
-            "titulo": "Programación 2 - Nivel",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Segundo nivel de programación",
-            "descripcion": "Ejercicios y ejemplos de programación estructurada.",
-            "url": "https://programacion-2-nl.vercel.app"
-          },
-          {
-            "titulo": "Curso ODDI",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Curso Estado Mayor ODDI",
-            "descripcion": "Plataforma con navegación en cascada, árboles automáticos y contenido completo del curso.",
-            "url": "https://oddi-curso.vercel.app"
-          },
-          {
-            "titulo": "Sistemas Operativos",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Conceptos fundamentales de SO",
-            "descripcion": "Material teórico y práctico sobre sistemas operativos.",
-            "url": "https://sistemas-operativos-nine.vercel.app/"
-          },
-          {
-            "titulo": "PowerShell Scripting",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Automatización con PowerShell",
-            "descripcion": "Guía y ejemplos de scripts en PowerShell para administración.",
-            "url": "https://power-shell-nine.vercel.app/"
-          },
-          {
-            "titulo": "HTML Básico",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Introducción a HTML",
-            "descripcion": "Página de ejemplo con etiquetas HTML fundamentales.",
-            "url": "https://html-vert-three.vercel.app/"
-          },
-          {
-            "titulo": "Vida Sana - Salud",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Consejos de alimentación y bienestar",
-            "descripcion": "Proyecto educativo sobre hábitos saludables.",
-            "url": "https://vida-sana-psi.vercel.app/"
-          },
-          {
-            "titulo": "Currículum Vitae",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Mi hoja de vida interactiva",
-            "descripcion": "Presentación profesional con experiencia, formación y proyectos.",
-            "url": "https://curr-culum-nine.vercel.app/"
-          },
-          {
-            "titulo": "GitHub - Guía básica",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Introducción a control de versiones",
-            "descripcion": "Tutorial práctico de Git y GitHub para principiantes.",
-            "url": "https://github-dun-two.vercel.app/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "tecnosocial",
-    "subcomandos": [
-      {
-        "nombre": "Tecnología para la comunidad",
-        "icono": "fas fa-hand-holding-heart",
-        "enlaces": [
-          {
-            "titulo": "SISPAVE - Sistema de Planificación",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Herramienta de planificación operativa",
-            "descripcion": "Aplicación para la gestión de planes y seguimiento de actividades comunitarias.",
-            "url": "https://sispave.vercel.app"
-          },
-          {
-            "titulo": "Acelerador de Estudio Jurídico",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Apoyo a comunidades legales",
-            "descripcion": "Plataforma que facilita el acceso a información jurídica para organizaciones sociales.",
-            "url": "https://acelerador-estudio-juridico.vercel.app"
-          },
-          {
-            "titulo": "Proyectos Comunitarios",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Gestión de iniciativas vecinales",
-            "descripcion": "Sistema para registrar, dar seguimiento y visibilizar proyectos comunitarios.",
-            "url": "https://proyectos-comunitarios-one.vercel.app"
-          },
-          {
-            "titulo": "Abastecimiento Estratégico",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Gestión de suministros regionales",
-            "descripcion": "Herramienta para planificar y monitorear el abastecimiento en la Región Capital.",
-            "url": "https://abastecimiento-estrategico.vercel.app"
-          },
-          {
-            "titulo": "SGO Presentación",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Sistema de Gestión Operativa",
-            "descripcion": "Presentación interactiva del Sistema de Gestión Operativa para entidades sociales.",
-            "url": "https://sgo-presentacion.vercel.app"
-          },
-          {
-            "titulo": "Sieveres - Portafolio social",
-            "autor": "Gerard Kenny",
-            "microdescripcion": "Recopilación de recursos comunitarios",
-            "descripcion": "Espacio donde se agrupan herramientas y documentos de interés social.",
-            "url": "https://sieveres.vercel.app"
-          }
-        ]
-      }
-    ]
-  }
-]
-      },
-                     {
-                         "id":  "tecnosocial",
-                         "subcomandos":  [
-                                             {
-                                                 "nombre":  "TecnologÃ­a para la comunidad",
-                                                 "icono":  "fas fa-hand-holding-heart",
-                                                 "enlaces":  [
-                                                                 {
-                                                                     "titulo":  "SISPAVE - Sistema de PlanificaciÃ³n",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Herramienta de planificaciÃ³n operativa",
-                                                                     "descripcion":  "AplicaciÃ³n para la gestiÃ³n de planes y seguimiento de actividades comunitarias.",
-                                                                     "url":  "https://sispave.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Acelerador de Estudio JurÃ­dico",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Apoyo a comunidades legales",
-                                                                     "descripcion":  "Plataforma que facilita el acceso a informaciÃ³n jurÃ­dica para organizaciones sociales.",
-                                                                     "url":  "https://acelerador-estudio-juridico.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Proyectos Comunitarios",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "GestiÃ³n de iniciativas vecinales",
-                                                                     "descripcion":  "Sistema para registrar, dar seguimiento y visibilizar proyectos comunitarios.",
-                                                                     "url":  "https://proyectos-comunitarios.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Abastecimiento EstratÃ©gico",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "GestiÃ³n de suministros regionales",
-                                                                     "descripcion":  "Herramienta para planificar y monitorear el abastecimiento en la RegiÃ³n Capital.",
-                                                                     "url":  "https://abastecimiento-estrategico.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "SGO PresentaciÃ³n",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "Sistema de GestiÃ³n Operativa",
-                                                                     "descripcion":  "PresentaciÃ³n interactiva del Sistema de GestiÃ³n Operativa para entidades sociales.",
-                                                                     "url":  "https://sgo-presentacion.vercel.app"
-                                                                 },
-                                                                 {
-                                                                     "titulo":  "Sieveres - Portafolio social",
-                                                                     "autor":  "Gerard Kenny",
-                                                                     "microdescripcion":  "RecopilaciÃ³n de recursos comunitarios",
-                                                                     "descripcion":  "Espacio donde se agrupan herramientas y documentos de interÃ©s social.",
-                                                                     "url":  "https://sieveres.vercel.app"
-                                                                 }
-                                                             ]
-                                             }
-                                         ]
-                     }
-                 ],
-    "pdfs":  [
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "001_Plan_Punto_y_Circulo.pdf",
-                     "autor":  "",
-                     "titulo":  "Plan Punto y Circulo",
-                     "ruta":  "academico/001_Plan_Punto_y_Circulo.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 001_Plan_Punto_y_Circulo.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
-                     "autor":  "",
-                     "titulo":  "SISTEMA DE SEGUIMIENTO OPERATIVO ESTRAT GICO",
-                     "ruta":  "academico/001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "002_Guerra_popular_de_Resitencia.pdf",
-                     "autor":  "",
-                     "titulo":  "Guerra popular de Resitencia",
-                     "ruta":  "academico/002_Guerra_popular_de_Resitencia.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 002_Guerra_popular_de_Resitencia.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "002_Hoja_de_Guerra.pdf",
-                     "autor":  "",
-                     "titulo":  "Hoja de Guerra",
-                     "ruta":  "academico/002_Hoja_de_Guerra.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 002_Hoja_de_Guerra.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "003_PLAN_ARS_2024_2025.pdf",
-                     "autor":  "",
-                     "titulo":  "PLAN ARS 2024 2025",
-                     "ruta":  "academico/003_PLAN_ARS_2024_2025.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 003_PLAN_ARS_2024_2025.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "004_SAM_PROPUESTA.pdf",
-                     "autor":  "",
-                     "titulo":  "SAM PROPUESTA",
-                     "ruta":  "academico/004_SAM_PROPUESTA.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 004_SAM_PROPUESTA.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "005_Proyectos_vinculados.pdf",
-                     "autor":  "",
-                     "titulo":  "Proyectos vinculados",
-                     "ruta":  "academico/005_Proyectos_vinculados.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 005_Proyectos_vinculados.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
-                     "autor":  "",
-                     "titulo":  "UNIDAD 1 Generalidades del Fondo Verde para el",
-                     "ruta":  "academico/006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
-                     "autor":  "",
-                     "titulo":  "UNIDAD 2 Preparaci n de Proyectos para el Fondo",
-                     "ruta":  "academico/006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "006_UNIDAD_3_Programa_de_Pa_s.pdf",
-                     "autor":  "",
-                     "titulo":  "UNIDAD 3 Programa de Pa s",
-                     "ruta":  "academico/006_UNIDAD_3_Programa_de_Pa_s.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 006_UNIDAD_3_Programa_de_Pa_s.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "academico",
-                     "subcategoria":  "007_PLAN_DE_TRABAJO.pdf",
-                     "autor":  "",
-                     "titulo":  "PLAN DE TRABAJO",
-                     "ruta":  "academico/007_PLAN_DE_TRABAJO.pdf",
-                     "microdescripcion":  "Documento PDF de academico / 007_PLAN_DE_TRABAJO.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "alimentacion",
-                     "subcategoria":  "001_poder_del_metabolismo.pdf",
-                     "autor":  "",
-                     "titulo":  "poder del metabolismo",
-                     "ruta":  "alimentacion/001_poder_del_metabolismo.pdf",
-                     "microdescripcion":  "Documento PDF de alimentacion / 001_poder_del_metabolismo.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "alimentacion",
-                     "subcategoria":  "002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
-                     "autor":  "",
-                     "titulo":  "Come y adelgaza DESAYUNOS MetabolismoTV",
-                     "ruta":  "alimentacion/002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
-                     "microdescripcion":  "Documento PDF de alimentacion / 002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "ajaib_singh",
-                     "titulo":  "Arroyos en el Desierto",
-                     "ruta":  "espiritual/sendero_santmat/ajaib_singh/001_Arroyos_en_el_Desierto.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "ajaib_singh",
-                     "titulo":  "Palacio",
-                     "ruta":  "espiritual/sendero_santmat/ajaib_singh/009_Palacio.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kabir",
-                     "titulo":  "Anurag Sagar de Kabir",
-                     "ruta":  "espiritual/sendero_santmat/kabir/003_Anurag_Sagar_de_Kabir.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kabir",
-                     "titulo":  "Poemas",
-                     "ruta":  "espiritual/sendero_santmat/kabir/005_Poemas.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Hombre Con cete a T Mismo",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/004_Hombre_Con_cete_a_T_Mismo.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Hombres",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/004_Hombres.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "MAN KNOW THYSELF ESP END",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/004_MAN_KNOW_THYSELF_ESP_END.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Realizacion",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/006_Realizacion.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Rueda",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/007_Rueda.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Misterio",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/008_Misterio.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Mensaje",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/012_Mensaje.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Vida y ensenanzas de Sawan Singh",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/017_Vida_y_ensenanzas_de_Sawan_Singh.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "Sendero",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/018_Sendero.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "AutoIntro",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/019_AutoIntro.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "kirpal_singh",
-                     "titulo":  "ElJapJi",
-                     "ruta":  "espiritual/sendero_santmat/kirpal_singh/020_ElJapJi.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "otros",
-                     "titulo":  "AMAGI",
-                     "ruta":  "espiritual/sendero_santmat/otros/022_AMAGI.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "otros",
-                     "titulo":  "Libro de La Sabiduria Harry B Joseph 1",
-                     "ruta":  "espiritual/sendero_santmat/otros/Libro_de_La_Sabiduria_Harry_B_Joseph_1.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "sadhu_ram",
-                     "titulo":  "Bhajanes 1 207 ESPANOL",
-                     "ruta":  "espiritual/sendero_santmat/sadhu_ram/013_Bhajanes_1_207_ESPANOL.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "sadhu_ram",
-                     "titulo":  "Bhajanes 208 249 ESPANOL",
-                     "ruta":  "espiritual/sendero_santmat/sadhu_ram/014_Bhajanes_208_249_ESPANOL.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "sadhu_ram",
-                     "titulo":  "Bhajanes 250 251 ESPANOL",
-                     "ruta":  "espiritual/sendero_santmat/sadhu_ram/015_Bhajanes_250_251_ESPANOL.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "espiritual",
-                     "subcategoria":  "sendero_santmat",
-                     "autor":  "sadhu_ram",
-                     "titulo":  "Bayanes",
-                     "ruta":  "espiritual/sendero_santmat/sadhu_ram/016_Bayanes.pdf",
-                     "microdescripcion":  "Documento PDF de espiritual / sendero_santmat",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
-                     "autor":  "",
-                     "titulo":  "herbolario tropical book dr keshava bhat 1985",
-                     "ruta":  "medicina/001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
-                     "autor":  "",
-                     "titulo":  "El Ayuno Terap utico como Proceso de Regeneraci n Celular",
-                     "ruta":  "medicina/002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "002_La_Curaci_n_Por_El_AYUNO.pdf",
-                     "autor":  "",
-                     "titulo":  "La Curaci n Por El AYUNO",
-                     "ruta":  "medicina/002_La_Curaci_n_Por_El_AYUNO.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 002_La_Curaci_n_Por_El_AYUNO.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "002_Protocolo_Detallado.pdf",
-                     "autor":  "",
-                     "titulo":  "Protocolo Detallado",
-                     "ruta":  "medicina/002_Protocolo_Detallado.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 002_Protocolo_Detallado.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
-                     "autor":  "",
-                     "titulo":  "Protocolo Previo Obligatorio para la Realizaci n de un Ayuno Terap utico",
-                     "ruta":  "medicina/002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "002_Protocolo_de_Realimentaci_n_Post.pdf",
-                     "autor":  "",
-                     "titulo":  "Protocolo de Realimentaci n Post",
-                     "ruta":  "medicina/002_Protocolo_de_Realimentaci_n_Post.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 002_Protocolo_de_Realimentaci_n_Post.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "003_Diabetes_Sin_Problemas.pdf",
-                     "autor":  "",
-                     "titulo":  "Diabetes Sin Problemas",
-                     "ruta":  "medicina/003_Diabetes_Sin_Problemas.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 003_Diabetes_Sin_Problemas.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "004_OncologiaYTerapiaGerson.pdf",
-                     "autor":  "",
-                     "titulo":  "OncologiaYTerapiaGerson",
-                     "ruta":  "medicina/004_OncologiaYTerapiaGerson.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 004_OncologiaYTerapiaGerson.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
-                     "autor":  "",
-                     "titulo":  "Pare La Diabetes en 14 Dias Dr Ludwig Johnson",
-                     "ruta":  "medicina/005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
-                     "autor":  "",
-                     "titulo":  "Gu a de Episodios de MetabolismoTV",
-                     "ruta":  "medicina/006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
-                     "autor":  "",
-                     "titulo":  "Metabolismo Ultra Poderoso por Frank Sua",
-                     "ruta":  "medicina/007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "008_La_Medicina_de_la_Nueva_Era.pdf",
-                     "autor":  "",
-                     "titulo":  "La Medicina de la Nueva Era",
-                     "ruta":  "medicina/008_La_Medicina_de_la_Nueva_Era.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 008_La_Medicina_de_la_Nueva_Era.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "009_La_Historia_de_la_Nueva_Medicina.pdf",
-                     "autor":  "",
-                     "titulo":  "La Historia de la Nueva Medicina",
-                     "ruta":  "medicina/009_La_Historia_de_la_Nueva_Medicina.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 009_La_Historia_de_la_Nueva_Medicina.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "010_Gerson_Libro_entero.pdf",
-                     "autor":  "",
-                     "titulo":  "Gerson Libro entero",
-                     "ruta":  "medicina/010_Gerson_Libro_entero.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 010_Gerson_Libro_entero.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "011_Conflictos_y_Enfermedades.pdf",
-                     "autor":  "",
-                     "titulo":  "Conflictos y Enfermedades",
-                     "ruta":  "medicina/011_Conflictos_y_Enfermedades.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / 011_Conflictos_y_Enfermedades.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "medicina",
-                     "subcategoria":  "Mapa_de_conceptos.pdf",
-                     "autor":  "",
-                     "titulo":  "Mapa de conceptos",
-                     "ruta":  "medicina/Mapa_de_conceptos.pdf",
-                     "microdescripcion":  "Documento PDF de medicina / Mapa_de_conceptos.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "001_POSTULACI_N.pdf",
-                     "autor":  "",
-                     "titulo":  "POSTULACI N",
-                     "ruta":  "personal/001_POSTULACI_N.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 001_POSTULACI_N.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
-                     "autor":  "",
-                     "titulo":  "PLANILLA DE INSCRIPCION CEM PARA LOS ODDI",
-                     "ruta":  "personal/002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "003_CEDULA_Y_RIF.pdf",
-                     "autor":  "",
-                     "titulo":  "CEDULA Y RIF",
-                     "ruta":  "personal/003_CEDULA_Y_RIF.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 003_CEDULA_Y_RIF.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "004_Resumen_Curricular_Abril_2026.pdf",
-                     "autor":  "",
-                     "titulo":  "Resumen Curricular Abril 2026",
-                     "ruta":  "personal/004_Resumen_Curricular_Abril_2026.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 004_Resumen_Curricular_Abril_2026.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "005_T_TULO_BACHILER.pdf",
-                     "autor":  "",
-                     "titulo":  "T TULO BACHILER",
-                     "ruta":  "personal/005_T_TULO_BACHILER.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 005_T_TULO_BACHILER.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "006_Notas_Bachiller.pdf",
-                     "autor":  "",
-                     "titulo":  "Notas Bachiller",
-                     "ruta":  "personal/006_Notas_Bachiller.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 006_Notas_Bachiller.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "007_Partida_de_Nacimiento.pdf",
-                     "autor":  "",
-                     "titulo":  "Partida de Nacimiento",
-                     "ruta":  "personal/007_Partida_de_Nacimiento.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 007_Partida_de_Nacimiento.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "008_1_Constancia_de_culminaci_n_TSU.pdf",
-                     "autor":  "",
-                     "titulo":  "1 Constancia de culminaci n TSU",
-                     "ruta":  "personal/008_1_Constancia_de_culminaci_n_TSU.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 008_1_Constancia_de_culminaci_n_TSU.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "008_Historico_de_Notas_TSU.pdf",
-                     "autor":  "",
-                     "titulo":  "Historico de Notas TSU",
-                     "ruta":  "personal/008_Historico_de_Notas_TSU.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 008_Historico_de_Notas_TSU.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "009_Aprobaci_n_de_Proyecto.pdf",
-                     "autor":  "",
-                     "titulo":  "Aprobaci n de Proyecto",
-                     "ruta":  "personal/009_Aprobaci_n_de_Proyecto.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 009_Aprobaci_n_de_Proyecto.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "010_Cuenta_de_ahorro_BV.pdf",
-                     "autor":  "",
-                     "titulo":  "Cuenta de ahorro BV",
-                     "ruta":  "personal/010_Cuenta_de_ahorro_BV.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 010_Cuenta_de_ahorro_BV.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
-                     "autor":  "",
-                     "titulo":  "Certificado Trb Socio Comunitarios 2011",
-                     "ruta":  "personal/011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "012_Reconocimiento_2013.pdf",
-                     "autor":  "",
-                     "titulo":  "Reconocimiento 2013",
-                     "ruta":  "personal/012_Reconocimiento_2013.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 012_Reconocimiento_2013.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "013_Informe_de_riesgo_Parque_Central.pdf",
-                     "autor":  "",
-                     "titulo":  "Informe de riesgo Parque Central",
-                     "ruta":  "personal/013_Informe_de_riesgo_Parque_Central.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 013_Informe_de_riesgo_Parque_Central.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "014_Formato_de_Inspecci_n_Integral.pdf",
-                     "autor":  "",
-                     "titulo":  "Formato de Inspecci n Integral",
-                     "ruta":  "personal/014_Formato_de_Inspecci_n_Integral.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 014_Formato_de_Inspecci_n_Integral.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "015_ESTRUCTURA_POR_EDIFICIO.pdf",
-                     "autor":  "",
-                     "titulo":  "ESTRUCTURA POR EDIFICIO",
-                     "ruta":  "personal/015_ESTRUCTURA_POR_EDIFICIO.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 015_ESTRUCTURA_POR_EDIFICIO.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "personal",
-                     "subcategoria":  "016_ODDI_PLAN.pdf",
-                     "autor":  "",
-                     "titulo":  "ODDI PLAN",
-                     "ruta":  "personal/016_ODDI_PLAN.pdf",
-                     "microdescripcion":  "Documento PDF de personal / 016_ODDI_PLAN.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "variados",
-                     "subcategoria":  "Inspecci_n_de_riesgo.pdf",
-                     "autor":  "",
-                     "titulo":  "Inspecci n de riesgo",
-                     "ruta":  "variados/Inspecci_n_de_riesgo.pdf",
-                     "microdescripcion":  "Documento PDF de variados / Inspecci_n_de_riesgo.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "variados",
-                     "subcategoria":  "MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
-                     "autor":  "",
-                     "titulo":  "MINUTA DE SEGUIMIENTO OPERATIVO",
-                     "ruta":  "variados/MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
-                     "microdescripcion":  "Documento PDF de variados / MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 },
-                 {
-                     "categoria":  "variados",
-                     "subcategoria":  "OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
-                     "autor":  "",
-                     "titulo":  "OFICIO DE RECEPCI N DE DOCUMENTOS",
-                     "ruta":  "variados/OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
-                     "microdescripcion":  "Documento PDF de variados / OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
-                     "descripcion":  "Haz clic en \"Ver\" para abrir el documento."
-                 }
-             ]
+  "comandos": [
+    {
+      "id": "educacion",
+      "subcomandos": [
+        {
+          "nombre": "Proyectos educativos",
+          "icono": "fas fa-graduation-cap",
+          "enlaces": [
+            {
+              "titulo": "Árbol de sistemas operativos",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Estructura jerárquica de sistemas operativos",
+              "descripcion": "Proyecto educativo que organiza conceptos de sistemas operativos en un árbol interactivo.",
+              "url": "https://tree-sical-os.vercel.app"
+            },
+            {
+              "titulo": "Diagrama Entidad-Relación",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Ejercicio de modelado de bases de datos",
+              "descripcion": "Práctica de diagrama entidad-relación para la materia de bases de datos.",
+              "url": "https://diagrama-entidad-relacion.vercel.app"
+            },
+            {
+              "titulo": "Chuleta - Resumen de estudios",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Material de apoyo para programación",
+              "descripcion": "Recopilación de comandos, sintaxis y conceptos clave para desarrollo.",
+              "url": "https://chuleta.vercel.app"
+            },
+            {
+              "titulo": "Uso Promedio - Estadística",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Cálculo de promedio con datos de ejemplo",
+              "descripcion": "Aplicación educativa para entender el concepto de promedio estadístico.",
+              "url": "https://uso-promedio.vercel.app"
+            },
+            {
+              "titulo": "Programación 2 - Nivel",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Segundo nivel de programación",
+              "descripcion": "Ejercicios y ejemplos de programación estructurada.",
+              "url": "https://programacion-2-nl.vercel.app"
+            },
+            {
+              "titulo": "Curso ODDI",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Curso Estado Mayor ODDI",
+              "descripcion": "Plataforma con navegación en cascada, árboles automáticos y contenido completo del curso.",
+              "url": "https://oddi-curso.vercel.app"
+            },
+            {
+              "titulo": "Sistemas Operativos",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Conceptos fundamentales de SO",
+              "descripcion": "Material teórico y práctico sobre sistemas operativos.",
+              "url": "https://sistemas-operativos-nine.vercel.app/"
+            },
+            {
+              "titulo": "PowerShell Scripting",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Automatización con PowerShell",
+              "descripcion": "Guía y ejemplos de scripts en PowerShell para administración.",
+              "url": "https://power-shell-nine.vercel.app/"
+            },
+            {
+              "titulo": "HTML Básico",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Introducción a HTML",
+              "descripcion": "Página de ejemplo con etiquetas HTML fundamentales.",
+              "url": "https://html-vert-three.vercel.app/"
+            },
+            {
+              "titulo": "Vida Sana - Salud",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Consejos de alimentación y bienestar",
+              "descripcion": "Proyecto educativo sobre hábitos saludables.",
+              "url": "https://vida-sana-psi.vercel.app/"
+            },
+            {
+              "titulo": "Currículum Vitae",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Mi hoja de vida interactiva",
+              "descripcion": "Presentación profesional con experiencia, formación y proyectos.",
+              "url": "https://curr-culum-nine.vercel.app/"
+            },
+            {
+              "titulo": "GitHub - Guía básica",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Introducción a control de versiones",
+              "descripcion": "Tutorial práctico de Git y GitHub para principiantes.",
+              "url": "https://github-dun-two.vercel.app/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tecnosocial",
+      "subcomandos": [
+        {
+          "nombre": "Tecnología para la comunidad",
+          "icono": "fas fa-hand-holding-heart",
+          "enlaces": [
+            {
+              "titulo": "SISPAVE - Sistema de Planificación",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Herramienta de planificación operativa",
+              "descripcion": "Aplicación para la gestión de planes y seguimiento de actividades comunitarias.",
+              "url": "https://sispave.vercel.app"
+            },
+            {
+              "titulo": "Acelerador de Estudio Jurídico",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Apoyo a comunidades legales",
+              "descripcion": "Plataforma que facilita el acceso a información jurídica para organizaciones sociales.",
+              "url": "https://acelerador-estudio-juridico.vercel.app"
+            },
+            {
+              "titulo": "Proyectos Comunitarios",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Gestión de iniciativas vecinales",
+              "descripcion": "Sistema para registrar, dar seguimiento y visibilizar proyectos comunitarios.",
+              "url": "https://proyectos-comunitarios-one.vercel.app"
+            },
+            {
+              "titulo": "Abastecimiento Estratégico",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Gestión de suministros regionales",
+              "descripcion": "Herramienta para planificar y monitorear el abastecimiento en la Región Capital.",
+              "url": "https://abastecimiento-estrategico.vercel.app"
+            },
+            {
+              "titulo": "SGO Presentación",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Sistema de Gestión Operativa",
+              "descripcion": "Presentación interactiva del Sistema de Gestión Operativa para entidades sociales.",
+              "url": "https://sgo-presentacion.vercel.app"
+            },
+            {
+              "titulo": "Sieveres - Portafolio social",
+              "autor": "Gerard Kenny",
+              "microdescripcion": "Recopilación de recursos comunitarios",
+              "descripcion": "Espacio donde se agrupan herramientas y documentos de interés social.",
+              "url": "https://sieveres.vercel.app"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "pdfs": [
+    {
+      "categoria": "academico",
+      "subcategoria": "001_Plan_Punto_y_Circulo.pdf",
+      "autor": "",
+      "titulo": "Plan Punto y Circulo",
+      "ruta": "academico/001_Plan_Punto_y_Circulo.pdf",
+      "microdescripcion": "Documento PDF de academico / 001_Plan_Punto_y_Circulo.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
+      "autor": "",
+      "titulo": "SISTEMA DE SEGUIMIENTO OPERATIVO ESTRAT GICO",
+      "ruta": "academico/001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
+      "microdescripcion": "Documento PDF de academico / 001_SISTEMA_DE_SEGUIMIENTO_OPERATIVO_ESTRAT_GICO.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "002_Guerra_popular_de_Resitencia.pdf",
+      "autor": "",
+      "titulo": "Guerra popular de Resitencia",
+      "ruta": "academico/002_Guerra_popular_de_Resitencia.pdf",
+      "microdescripcion": "Documento PDF de academico / 002_Guerra_popular_de_Resitencia.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "002_Hoja_de_Guerra.pdf",
+      "autor": "",
+      "titulo": "Hoja de Guerra",
+      "ruta": "academico/002_Hoja_de_Guerra.pdf",
+      "microdescripcion": "Documento PDF de academico / 002_Hoja_de_Guerra.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "003_PLAN_ARS_2024_2025.pdf",
+      "autor": "",
+      "titulo": "PLAN ARS 2024 2025",
+      "ruta": "academico/003_PLAN_ARS_2024_2025.pdf",
+      "microdescripcion": "Documento PDF de academico / 003_PLAN_ARS_2024_2025.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "004_SAM_PROPUESTA.pdf",
+      "autor": "",
+      "titulo": "SAM PROPUESTA",
+      "ruta": "academico/004_SAM_PROPUESTA.pdf",
+      "microdescripcion": "Documento PDF de academico / 004_SAM_PROPUESTA.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "005_Proyectos_vinculados.pdf",
+      "autor": "",
+      "titulo": "Proyectos vinculados",
+      "ruta": "academico/005_Proyectos_vinculados.pdf",
+      "microdescripcion": "Documento PDF de academico / 005_Proyectos_vinculados.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
+      "autor": "",
+      "titulo": "UNIDAD 1 Generalidades del Fondo Verde para el",
+      "ruta": "academico/006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
+      "microdescripcion": "Documento PDF de academico / 006_UNIDAD_1_Generalidades_del_Fondo_Verde_para_el.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
+      "autor": "",
+      "titulo": "UNIDAD 2 Preparaci n de Proyectos para el Fondo",
+      "ruta": "academico/006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
+      "microdescripcion": "Documento PDF de academico / 006_UNIDAD_2_Preparaci_n_de_Proyectos_para_el_Fondo.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "006_UNIDAD_3_Programa_de_Pa_s.pdf",
+      "autor": "",
+      "titulo": "UNIDAD 3 Programa de Pa s",
+      "ruta": "academico/006_UNIDAD_3_Programa_de_Pa_s.pdf",
+      "microdescripcion": "Documento PDF de academico / 006_UNIDAD_3_Programa_de_Pa_s.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "academico",
+      "subcategoria": "007_PLAN_DE_TRABAJO.pdf",
+      "autor": "",
+      "titulo": "PLAN DE TRABAJO",
+      "ruta": "academico/007_PLAN_DE_TRABAJO.pdf",
+      "microdescripcion": "Documento PDF de academico / 007_PLAN_DE_TRABAJO.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "alimentacion",
+      "subcategoria": "001_poder_del_metabolismo.pdf",
+      "autor": "",
+      "titulo": "poder del metabolismo",
+      "ruta": "alimentacion/001_poder_del_metabolismo.pdf",
+      "microdescripcion": "Documento PDF de alimentacion / 001_poder_del_metabolismo.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "alimentacion",
+      "subcategoria": "002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
+      "autor": "",
+      "titulo": "Come y adelgaza DESAYUNOS MetabolismoTV",
+      "ruta": "alimentacion/002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
+      "microdescripcion": "Documento PDF de alimentacion / 002_Come_y_adelgaza_DESAYUNOS_MetabolismoTV.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "ajaib_singh",
+      "titulo": "Arroyos en el Desierto",
+      "ruta": "espiritual/sendero_santmat/ajaib_singh/001_Arroyos_en_el_Desierto.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "ajaib_singh",
+      "titulo": "Palacio",
+      "ruta": "espiritual/sendero_santmat/ajaib_singh/009_Palacio.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kabir",
+      "titulo": "Anurag Sagar de Kabir",
+      "ruta": "espiritual/sendero_santmat/kabir/003_Anurag_Sagar_de_Kabir.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kabir",
+      "titulo": "Poemas",
+      "ruta": "espiritual/sendero_santmat/kabir/005_Poemas.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Hombre Con cete a T Mismo",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/004_Hombre_Con_cete_a_T_Mismo.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Hombres",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/004_Hombres.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "MAN KNOW THYSELF ESP END",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/004_MAN_KNOW_THYSELF_ESP_END.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Realizacion",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/006_Realizacion.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Rueda",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/007_Rueda.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Misterio",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/008_Misterio.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Mensaje",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/012_Mensaje.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Vida y ensenanzas de Sawan Singh",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/017_Vida_y_ensenanzas_de_Sawan_Singh.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "Sendero",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/018_Sendero.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "AutoIntro",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/019_AutoIntro.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "kirpal_singh",
+      "titulo": "ElJapJi",
+      "ruta": "espiritual/sendero_santmat/kirpal_singh/020_ElJapJi.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "otros",
+      "titulo": "AMAGI",
+      "ruta": "espiritual/sendero_santmat/otros/022_AMAGI.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "otros",
+      "titulo": "Libro de La Sabiduria Harry B Joseph 1",
+      "ruta": "espiritual/sendero_santmat/otros/Libro_de_La_Sabiduria_Harry_B_Joseph_1.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "sadhu_ram",
+      "titulo": "Bhajanes 1 207 ESPANOL",
+      "ruta": "espiritual/sendero_santmat/sadhu_ram/013_Bhajanes_1_207_ESPANOL.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "sadhu_ram",
+      "titulo": "Bhajanes 208 249 ESPANOL",
+      "ruta": "espiritual/sendero_santmat/sadhu_ram/014_Bhajanes_208_249_ESPANOL.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "sadhu_ram",
+      "titulo": "Bhajanes 250 251 ESPANOL",
+      "ruta": "espiritual/sendero_santmat/sadhu_ram/015_Bhajanes_250_251_ESPANOL.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "espiritual",
+      "subcategoria": "sendero_santmat",
+      "autor": "sadhu_ram",
+      "titulo": "Bayanes",
+      "ruta": "espiritual/sendero_santmat/sadhu_ram/016_Bayanes.pdf",
+      "microdescripcion": "Documento PDF de espiritual / sendero_santmat",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
+      "autor": "",
+      "titulo": "herbolario tropical book dr keshava bhat 1985",
+      "ruta": "medicina/001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
+      "microdescripcion": "Documento PDF de medicina / 001_herbolario_tropical_book_dr_keshava_bhat_1985.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
+      "autor": "",
+      "titulo": "El Ayuno Terap utico como Proceso de Regeneraci n Celular",
+      "ruta": "medicina/002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
+      "microdescripcion": "Documento PDF de medicina / 002_El_Ayuno_Terap_utico_como_Proceso_de_Regeneraci_n_Celular.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "002_La_Curaci_n_Por_El_AYUNO.pdf",
+      "autor": "",
+      "titulo": "La Curaci n Por El AYUNO",
+      "ruta": "medicina/002_La_Curaci_n_Por_El_AYUNO.pdf",
+      "microdescripcion": "Documento PDF de medicina / 002_La_Curaci_n_Por_El_AYUNO.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "002_Protocolo_Detallado.pdf",
+      "autor": "",
+      "titulo": "Protocolo Detallado",
+      "ruta": "medicina/002_Protocolo_Detallado.pdf",
+      "microdescripcion": "Documento PDF de medicina / 002_Protocolo_Detallado.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
+      "autor": "",
+      "titulo": "Protocolo Previo Obligatorio para la Realizaci n de un Ayuno Terap utico",
+      "ruta": "medicina/002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
+      "microdescripcion": "Documento PDF de medicina / 002_Protocolo_Previo_Obligatorio_para_la_Realizaci_n_de_un_Ayuno_Terap_utico.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "002_Protocolo_de_Realimentaci_n_Post.pdf",
+      "autor": "",
+      "titulo": "Protocolo de Realimentaci n Post",
+      "ruta": "medicina/002_Protocolo_de_Realimentaci_n_Post.pdf",
+      "microdescripcion": "Documento PDF de medicina / 002_Protocolo_de_Realimentaci_n_Post.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "003_Diabetes_Sin_Problemas.pdf",
+      "autor": "",
+      "titulo": "Diabetes Sin Problemas",
+      "ruta": "medicina/003_Diabetes_Sin_Problemas.pdf",
+      "microdescripcion": "Documento PDF de medicina / 003_Diabetes_Sin_Problemas.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "004_OncologiaYTerapiaGerson.pdf",
+      "autor": "",
+      "titulo": "OncologiaYTerapiaGerson",
+      "ruta": "medicina/004_OncologiaYTerapiaGerson.pdf",
+      "microdescripcion": "Documento PDF de medicina / 004_OncologiaYTerapiaGerson.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
+      "autor": "",
+      "titulo": "Pare La Diabetes en 14 Dias Dr Ludwig Johnson",
+      "ruta": "medicina/005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
+      "microdescripcion": "Documento PDF de medicina / 005_Pare_La_Diabetes_en_14_Dias_Dr_Ludwig_Johnson.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
+      "autor": "",
+      "titulo": "Gu a de Episodios de MetabolismoTV",
+      "ruta": "medicina/006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
+      "microdescripcion": "Documento PDF de medicina / 006_Gu_a_de_Episodios_de_MetabolismoTV.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
+      "autor": "",
+      "titulo": "Metabolismo Ultra Poderoso por Frank Sua",
+      "ruta": "medicina/007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
+      "microdescripcion": "Documento PDF de medicina / 007_Metabolismo_Ultra_Poderoso_por_Frank_Sua.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "008_La_Medicina_de_la_Nueva_Era.pdf",
+      "autor": "",
+      "titulo": "La Medicina de la Nueva Era",
+      "ruta": "medicina/008_La_Medicina_de_la_Nueva_Era.pdf",
+      "microdescripcion": "Documento PDF de medicina / 008_La_Medicina_de_la_Nueva_Era.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "009_La_Historia_de_la_Nueva_Medicina.pdf",
+      "autor": "",
+      "titulo": "La Historia de la Nueva Medicina",
+      "ruta": "medicina/009_La_Historia_de_la_Nueva_Medicina.pdf",
+      "microdescripcion": "Documento PDF de medicina / 009_La_Historia_de_la_Nueva_Medicina.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "010_Gerson_Libro_entero.pdf",
+      "autor": "",
+      "titulo": "Gerson Libro entero",
+      "ruta": "medicina/010_Gerson_Libro_entero.pdf",
+      "microdescripcion": "Documento PDF de medicina / 010_Gerson_Libro_entero.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "011_Conflictos_y_Enfermedades.pdf",
+      "autor": "",
+      "titulo": "Conflictos y Enfermedades",
+      "ruta": "medicina/011_Conflictos_y_Enfermedades.pdf",
+      "microdescripcion": "Documento PDF de medicina / 011_Conflictos_y_Enfermedades.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "medicina",
+      "subcategoria": "Mapa_de_conceptos.pdf",
+      "autor": "",
+      "titulo": "Mapa de conceptos",
+      "ruta": "medicina/Mapa_de_conceptos.pdf",
+      "microdescripcion": "Documento PDF de medicina / Mapa_de_conceptos.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "001_POSTULACI_N.pdf",
+      "autor": "",
+      "titulo": "POSTULACI N",
+      "ruta": "personal/001_POSTULACI_N.pdf",
+      "microdescripcion": "Documento PDF de personal / 001_POSTULACI_N.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
+      "autor": "",
+      "titulo": "PLANILLA DE INSCRIPCION CEM PARA LOS ODDI",
+      "ruta": "personal/002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
+      "microdescripcion": "Documento PDF de personal / 002_PLANILLA_DE_INSCRIPCION_CEM_PARA_LOS_ODDI.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "003_CEDULA_Y_RIF.pdf",
+      "autor": "",
+      "titulo": "CEDULA Y RIF",
+      "ruta": "personal/003_CEDULA_Y_RIF.pdf",
+      "microdescripcion": "Documento PDF de personal / 003_CEDULA_Y_RIF.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "004_Resumen_Curricular_Abril_2026.pdf",
+      "autor": "",
+      "titulo": "Resumen Curricular Abril 2026",
+      "ruta": "personal/004_Resumen_Curricular_Abril_2026.pdf",
+      "microdescripcion": "Documento PDF de personal / 004_Resumen_Curricular_Abril_2026.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "005_T_TULO_BACHILER.pdf",
+      "autor": "",
+      "titulo": "T TULO BACHILER",
+      "ruta": "personal/005_T_TULO_BACHILER.pdf",
+      "microdescripcion": "Documento PDF de personal / 005_T_TULO_BACHILER.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "006_Notas_Bachiller.pdf",
+      "autor": "",
+      "titulo": "Notas Bachiller",
+      "ruta": "personal/006_Notas_Bachiller.pdf",
+      "microdescripcion": "Documento PDF de personal / 006_Notas_Bachiller.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "007_Partida_de_Nacimiento.pdf",
+      "autor": "",
+      "titulo": "Partida de Nacimiento",
+      "ruta": "personal/007_Partida_de_Nacimiento.pdf",
+      "microdescripcion": "Documento PDF de personal / 007_Partida_de_Nacimiento.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "008_1_Constancia_de_culminaci_n_TSU.pdf",
+      "autor": "",
+      "titulo": "1 Constancia de culminaci n TSU",
+      "ruta": "personal/008_1_Constancia_de_culminaci_n_TSU.pdf",
+      "microdescripcion": "Documento PDF de personal / 008_1_Constancia_de_culminaci_n_TSU.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "008_Historico_de_Notas_TSU.pdf",
+      "autor": "",
+      "titulo": "Historico de Notas TSU",
+      "ruta": "personal/008_Historico_de_Notas_TSU.pdf",
+      "microdescripcion": "Documento PDF de personal / 008_Historico_de_Notas_TSU.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "009_Aprobaci_n_de_Proyecto.pdf",
+      "autor": "",
+      "titulo": "Aprobaci n de Proyecto",
+      "ruta": "personal/009_Aprobaci_n_de_Proyecto.pdf",
+      "microdescripcion": "Documento PDF de personal / 009_Aprobaci_n_de_Proyecto.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "010_Cuenta_de_ahorro_BV.pdf",
+      "autor": "",
+      "titulo": "Cuenta de ahorro BV",
+      "ruta": "personal/010_Cuenta_de_ahorro_BV.pdf",
+      "microdescripcion": "Documento PDF de personal / 010_Cuenta_de_ahorro_BV.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
+      "autor": "",
+      "titulo": "Certificado Trb Socio Comunitarios 2011",
+      "ruta": "personal/011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
+      "microdescripcion": "Documento PDF de personal / 011_Certificado_Trb_Socio_Comunitarios_2011.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "012_Reconocimiento_2013.pdf",
+      "autor": "",
+      "titulo": "Reconocimiento 2013",
+      "ruta": "personal/012_Reconocimiento_2013.pdf",
+      "microdescripcion": "Documento PDF de personal / 012_Reconocimiento_2013.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "013_Informe_de_riesgo_Parque_Central.pdf",
+      "autor": "",
+      "titulo": "Informe de riesgo Parque Central",
+      "ruta": "personal/013_Informe_de_riesgo_Parque_Central.pdf",
+      "microdescripcion": "Documento PDF de personal / 013_Informe_de_riesgo_Parque_Central.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "014_Formato_de_Inspecci_n_Integral.pdf",
+      "autor": "",
+      "titulo": "Formato de Inspecci n Integral",
+      "ruta": "personal/014_Formato_de_Inspecci_n_Integral.pdf",
+      "microdescripcion": "Documento PDF de personal / 014_Formato_de_Inspecci_n_Integral.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "015_ESTRUCTURA_POR_EDIFICIO.pdf",
+      "autor": "",
+      "titulo": "ESTRUCTURA POR EDIFICIO",
+      "ruta": "personal/015_ESTRUCTURA_POR_EDIFICIO.pdf",
+      "microdescripcion": "Documento PDF de personal / 015_ESTRUCTURA_POR_EDIFICIO.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "personal",
+      "subcategoria": "016_ODDI_PLAN.pdf",
+      "autor": "",
+      "titulo": "ODDI PLAN",
+      "ruta": "personal/016_ODDI_PLAN.pdf",
+      "microdescripcion": "Documento PDF de personal / 016_ODDI_PLAN.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "variados",
+      "subcategoria": "Inspecci_n_de_riesgo.pdf",
+      "autor": "",
+      "titulo": "Inspecci n de riesgo",
+      "ruta": "variados/Inspecci_n_de_riesgo.pdf",
+      "microdescripcion": "Documento PDF de variados / Inspecci_n_de_riesgo.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "variados",
+      "subcategoria": "MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
+      "autor": "",
+      "titulo": "MINUTA DE SEGUIMIENTO OPERATIVO",
+      "ruta": "variados/MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
+      "microdescripcion": "Documento PDF de variados / MINUTA_DE_SEGUIMIENTO_OPERATIVO.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    },
+    {
+      "categoria": "variados",
+      "subcategoria": "OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
+      "autor": "",
+      "titulo": "OFICIO DE RECEPCI N DE DOCUMENTOS",
+      "ruta": "variados/OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
+      "microdescripcion": "Documento PDF de variados / OFICIO_DE_RECEPCI_N_DE_DOCUMENTOS.pdf",
+      "descripcion": "Haz clic en \"Ver\" para abrir el documento."
+    }
+  ]
 }
